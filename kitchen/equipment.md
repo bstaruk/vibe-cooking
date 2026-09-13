@@ -18,8 +18,8 @@ _Last updated: 2026-09-13 (kitchen tour in progress; specs checked 2026-09-13)_
 | Zones (call names) | **Front-left zone**: 8" × 9", 2,200W (boost 3,600W) · **Back-left zone**: 8" × 9", 2,200W (boost 3,600W) · **Left flex zone**: both joined, 15" × 9" (38 × 21.5cm), 3,300W, with PowerMove presets (front 9 · middle 5 · back 1.5) · **Big zone**: back right, 11", 2,600W (boost 3,600W) · **Small zone**: front right, 6", 1,400W (boost 2,200W) |
 | Cooktop notes | AutoChef frying levels only read correctly with Bosch's sensor pans, so ignore it for iron and clad. No published minimum pan size. |
 | Oven | **Café 30" smart single wall oven, CTS70DP2NS1.** 5.0 cu ft; interior 25" W × 17⅜" H × 20¼" D. True European convection (third element, 2,400W). Bake 2,850W; 10-pass dual broil 4,300W. Modes: bake, broil hi/lo, convection bake, convection multi-rack, convection roast, convection broil, air fry (300–500°F (150–260°C), no preheat), proof, warm. Probe included (max setting 200°F (93°C)). Self-clean and steam clean. Max bake temp *unverified*. |
-| Hood | _?_ |
-| Calibration notes | Oven accuracy _?_ (not yet checked against an oven thermometer). Dial calibration for the zones comes from cooks. |
+| Hood | Convertible hood (ducted or recirculating), **currently recirculating** through a carbon filter; make and model _?_. The stainless baffle filter goes through the dishwasher regularly. A recirculating hood returns heat and moisture to the kitchen and only partly handles smoke, so very smoky high-heat sears may be better outdoors. |
+| Calibration notes | Oven accuracy not yet checked against an oven thermometer. Dial calibration for the zones comes from cooks. |
 | Vintage iron on induction | Thin vintage castings can warp or crack from uneven heating; the evidence is owner reports, not testing. Preheat on medium-low and step up, match the zone to the pan's base, never use boost, never heat it empty, never quench it hot. An oven preheat is the gentlest option. |
 
 ## Cast iron
@@ -43,12 +43,13 @@ _Last updated: 2026-09-13 (kitchen tour in progress; specs checked 2026-09-13)_
 
 ## Stainless & clad
 
-All-Clad stainless is oven and broiler safe to **600°F (315°C)** and induction-compatible in every line checked. All-Clad lists only overall dimensions, so diameters here come from owners or need measuring.
+Everything here is induction-compatible. All-Clad D3 is oven and broiler safe to **600°F (315°C)**; Made In stainless clad to **800°F (425°C)**. All-Clad lists only overall dimensions, so its diameters come from retailers or need measuring.
 
 | Call name | Maker / model | Size / capacity | Construction | Notes |
 |---|---|---|---|---|
-| `3qt All-Clad saucier` | All-Clad 3qt saucier, model _?_ | 3qt (2.8L) · top diameter _?_ (owners report ~9½" for the D3 4213) | _?_: D3 (4213, or current Chef's Selection CFS4213R) or Copper Core (6213) | Check the stamp on the base. |
-| `4qt All-Clad` _(type ?)_ | All-Clad 4qt, model _?_ | 4qt (3.8L) | _?_ | All-Clad has no 4qt saucier in any line found. Likely a D5 4qt sautéuse (sloped sides, BD5540485) or a D3 4qt Weeknight Pan (rounded sides, 440465). The call name is final once identified. |
+| `0.5qt All-Clad butter warmer` | All-Clad D3 butter warmer (42006) | 0.5qt (0.47L) · ~4.9" across (overall width; rim diameter *unverified*) | D3 tri-ply, aluminum core | Pour lip(s); no lid; hand wash. |
+| `2qt Made In saucier` | Made In Stainless Clad saucier, 2qt (made in Italy) | 2qt (1.9L) · 8.2" (21cm) top · 5" base · 2.8 lb | 5-ply: 18/10 stainless, aluminum, aluminum alloy, 430 stainless | Listing gives height as 5.1", taller than the 3qt; possibly with the lid (*unverified*). |
+| `3qt Made In saucier` | Made In Stainless Clad saucier, 3qt (made in Italy) | 3qt (2.8L) · 10" (25cm) top · 7" base · 4.5" tall · 3.7 lb | 5-ply, as above | Made In now also makes this size in the USA; Brian's is the Italian version. |
 | `6qt All-Clad` _(type ?)_ | All-Clad 6qt "Everyday" pan, model _?_ | 6qt (5.7L) | D3 (per Brian) | All-Clad sells no "Everyday Pan." D3 6qt candidates: Mother of All Pans (DC44063), sauté, deep sauté. D5 and Copper Core sell a 6qt Essential Pan. |
 
 ## Prep & mixing
@@ -58,6 +59,7 @@ All-Clad stainless is oven and broiler safe to **600°F (315°C)** and induction
 | `1.5qt All-Clad bowl` | All-Clad stainless mixing bowl set (MBSET) | 1.5qt (1.4L) · 7¼" (18cm) across · 3½" tall | Bowl sizes from one retailer (Sur La Table). |
 | `3qt All-Clad bowl` | same set | 3qt (2.8L) · 9" (23cm) across · 4½" tall | |
 | `5qt All-Clad bowl` | same set | 5qt (4.7L) · 10¼" (26cm) across · 5" tall | |
+| `All-Clad food mill` | All-Clad stainless food mill (likely 59919) | ~1.7L (7 cups) · fits over pots and bowls 8–12" (20–30cm) across | Discs: coarse 5mm, medium 3mm, fine 2mm (from retailer summaries). 18/10 stainless; dishwasher safe. |
 
 ## Enameled cast iron
 
@@ -77,6 +79,7 @@ All-Clad stainless is oven and broiler safe to **600°F (315°C)** and induction
 | `All-Clad small sheet pan` (×2) | All-Clad, type _?_ | _?_: stainless quarter sheet is 12½" × 9"; Pro-Release quarter sheet is 13" × 9" | Same temperature split as above. |
 | `12" Made In pizza steel` (×2) | Made In seasoned carbon steel "Pizza Steel" | 12.6" (32cm) across · 11.5" (29cm) cooking surface · 2mm thick · 2.6 lb | **A thin perforated pan (86 holes), not a thick baking steel:** little stored heat. Rated to 1200°F (650°C). Pre-seasoned; hand wash. Owners report burrs around the holes on the underside. |
 | `14" pizza screen` (×2) | Aluminum pizza screen, brand unknown | 14" (36cm) | Season with a wipe of oil before use; hand wash with mild, aluminum-safe detergent; store flat. |
+| `12" Sicilian pan` | SWH Enterprises 12" × 12" × 1" Sicilian/Grandma pan | 12" × 12" (30 × 30cm) · 1" (2.5cm) deep · 22-gauge cold-rolled steel, ~0.030" (0.76mm) | Bare steel needs seasoning and rusts if left wet; whether Brian's shipped seasoned _?_. Retail summaries say it's hand-built in Reno, NV, ~34.5 oz (*unverified*). |
 | `10" bar pizza pan` (×2) | Bay State Restaurant Products 10" bar pizza pan (south shore bar pizza) | 10" (25cm) · depth and base diameter _?_ (measure) | Steel, made in USA. No published spec sheet. |
 
 ## Knives & boards
@@ -105,6 +108,7 @@ All-Clad stainless is oven and broiler safe to **600°F (315°C)** and induction
 |---|---|---|---|
 | `Instant Pot` | Instant Pot Duo 6qt, IP-DUO60 | 6qt (5.7L) · 1,000W · high pressure 10.2–11.6 psi, 239–244°F (115–118°C) · low pressure 5.8–7.2 psi, 229–233°F (109–112°C) · sauté: Less 275–302°F (135–150°C), Normal 320–349°F (160–176°C), More 347–410°F (175–210°C) | 18/8 stainless inner pot with a 3-ply base. |
 | `Vitamix immersion blender` | Vitamix 5-Speed Immersion Blender, VM0219 | 625W · 5 speeds · bell guard | The bell guard protects pan surfaces. Base unit or Complete Bundle (jar, whisk, mini-chopper, stand) _?_ |
+| `Nesco vacuum sealer` | Nesco Deluxe Vacuum Sealer VS-12 | 130W · dry, moist, and double seal · normal and gentle pressure · pulse vacuum · bag cutter and roll storage | Accessory hose port for canisters and jar lids (sold separately). Let it rest 1 min between seals. |
 | `KitchenAid mixer` | KitchenAid Professional 600, 6qt bowl-lift (KP26M1X) | 6qt (5.7L) stainless bowl · 10 speeds · ~575W (*unverified*) · KitchenAid rates it for ~1.7kg all-purpose flour (14 cups) | Spiral (PowerKnead) dough hook, flat beater, 6-wire whip, pour shield. |
 
 ## Outdoor
