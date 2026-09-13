@@ -16,6 +16,7 @@ _Last updated: 2026-09-13 (kitchen tour in progress)_
 ## Household & rhythm
 
 - **Cooks for:** Brian and his wife.
+- **Who makes what:** Brian is the meal-maker. His wife makes things like hummus, desserts, and cupcakes.
 - **Weeknight time budget:** flexible.
 - **Project cooking:**
   - **Loves:** projects whose payoff lasts. Examples: multi-day bread ferments, and batch days like making 200 pierogi to portion, vacuum-seal, and freeze.
@@ -24,13 +25,14 @@ _Last updated: 2026-09-13 (kitchen tour in progress)_
 ## Diet & hard limits
 
 - **Shared meals** need to work for a vegetarian (Brian's wife).
-- **Allergies / restrictions:** _?_
-- **Won't eat:** _?_
+- **Allergies / restrictions:** none.
+- **Won't eat:** nothing specific, but tastes are "pretty tame": skip adventurous offal and other unusual cuts.
 
 ## Tastes
 
 - **Hearty meals.**
-- **Favorite cuisines:** _?_
+- **Favorite cuisine: Italian,** especially anything with tomato sauce and cheese.
+- **Go-to meals:** oven-baked tofu, and "big salads" loaded with whatever's around. Both love Ken's Italian dressing.
 - **Heat:**
   - **Loves it.** Yellow habaneros (grown 2026) are a favorite.
   - **Has a limit.** Carolina Reapers (grown 2025) were humbling, so no more superhots.
@@ -50,10 +52,11 @@ _Last updated: 2026-09-13 (kitchen tour in progress)_
 
 ## Goals
 
-- **Dishes to master:** _?_
-- **Techniques to learn:** _?_
+- **Bake bread twice as often:** currently every 7–10 days; goal is every 3–5 days.
+- **Explore the Challenger bread pan:** recently bought, after a couple of years of baking in a Dutch oven.
+- **Yeasted breads for now;** maybe sourdough again later.
 
 ## Shopping
 
 - **Stores within reach:** Wegmans (source of the house salt, most flours, and San Marzanos); others _?_
-- **Region / climate (for seasonality):** _?_
+- **Region / climate (for seasonality):** about 15 miles south of Boston, MA (New England seasons). Brian OK'd this level of detail; it's already public on his GitHub profile.
