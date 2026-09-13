@@ -104,7 +104,9 @@ Le Creuset guidance: low to medium heat for everything, including searing; heat 
 | `Timemore scale` | Timemore Black Mirror Basic 2 | 2kg × 0.1g · detects from 0.5g | Brian's scale for anything under ~50g or needing 0.1g. Auto-off after 3 min idle (15 min with the timer running). Accuracy isn't published. |
 | `AWS scale` | American Weigh Scales AWS-100 | 100g × 0.01g · ±0.02g | Rarely used; for 0.01g accuracy. Calibrates with a 100g weight (sold separately); calibration weight on hand _?_ |
 | `Gravitas scale` *(on order)* | ThermoWorks Gravitas | 5kg × 0.1g · **accuracy ±0.7g** · IP66/67 · NIST-traceable certificate | Preordered and delayed; ThermoWorks says it's now shipping, Brian's ETA unknown. Don't plan around it until it arrives. It displays 0.1g but is rated to ±0.7g, so the AWS scale stays the pick for amounts under ~10g. |
-| IR / leave-in probe / oven thermometer | _?_ | | None listed yet. |
+| `IR gun` | ThermoWorks Industrial IR Gun (IR-GUN-S) | −76 to 1022°F (−60 to 550°C) · ±2% of reading above 32°F, ±4°F (±2°C) minimum, so ±19°F (±11°C) at 950°F · 12:1 distance-to-spot · emissivity adjustable 0.10–1.00, default 0.95 | **Reads surfaces, and only matte ones well.** Fine at 0.95 on stone and enamel; reads far too low on shiny stainless, and seasoned iron varies. Gozney: aim at the front of the floor, away from the burner, and read quickly, because the gun itself is only rated for 32–122°F (0–50°C) surroundings. **Check:** a stirred ice-and-water glass, read from 3" straight down, should show 28–36°F (−2 to 2°C). No home check covers pizza temperatures. |
+| `Café oven probe` | Probe included with the Café oven | Oven probe setting up to 200°F (93°C) | Leave-in probe for oven roasts. |
+| Oven thermometer | _?_ | | Needed to check whether the Café runs true. |
 
 ## Countertop appliances
 
