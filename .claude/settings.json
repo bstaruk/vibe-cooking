@@ -15,7 +15,9 @@
       "Bash(git pull *)",
       "Bash(gh pr view *)",
       "Bash(gh pr list *)",
-      "Bash(gh pr status *)"
+      "Bash(gh pr status *)",
+      "Bash(magick *)",
+      "Bash(exiftool *)"
     ],
     "ask": [
       "Bash(git push *)",

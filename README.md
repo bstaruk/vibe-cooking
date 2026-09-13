@@ -76,13 +76,16 @@ Can't decide in two seconds? It's `chop:`. The full guide is in [.claude/rules/k
 ├── PATINA.md          the persona, with tuning knobs
 ├── SOURCES.md         chefs, sites & books we trust, ranked
 ├── SEASONING.md       log of how our process has changed, and why
+├── LICENSE            MIT (the setup)
+├── LICENSE-CONTENT.md CC BY 4.0 (the content)
 ├── kitchen/           equipment · pantry · profile · wishlist
 ├── recipes/           house recipes + index + on-deck list
-├── journal/           cook logs, one per cook
+├── journal/           cook logs & photos, one per cook
 ├── techniques/        lasting know-how & the science behind it
 ├── research/          dated gear research reports
+├── inbox/             drop zone for photos to process (gitignored)
 └── .claude/
-    ├── rules/         units.md · kitchen-tickets.md (always on) · recipe-format.md (recipes)
+    ├── rules/         units.md · kitchen-tickets.md · photos.md (always on) · recipe-format.md (recipes)
     ├── skills/        kitchen · gear · menu · recipe · cook · debrief · learn · season
     ├── agents/        kitchen-scout (parallel web research)
     └── settings.json  pre-approved: web research + local git (push & PRs always ask)
@@ -91,3 +94,13 @@ Can't decide in two seconds? It's `chop:`. The full guide is in [.claude/rules/k
 ## Tuning it
 
 Everything here is meant to change. Tell Patina *"from now on…"* and the relevant rule gets updated and logged in [SEASONING.md](SEASONING.md). For a bigger rethink, run `/season` for a full retro. Patina's personality has tuning knobs (wit, brigade lingo, science depth) at the top of [PATINA.md](PATINA.md).
+
+## A note on food safety
+
+These are one home cook's notes, not professional advice. Some recipes deliberately go below USDA's headline temperatures, like a 131°F steak or a 150°F chicken breast. Whenever a recipe does that, it says so and gives the time-at-temperature numbers it relies on. Use your own judgment, and when in doubt, follow USDA guidance.
+
+## License
+
+- **The setup is [MIT](LICENSE).** That covers `.claude/` (skills, rules, agent, settings), `CLAUDE.md`, and `PATINA.md`. Borrow the workflow for your own kitchen, or for anything else.
+- **The content is [CC BY 4.0](LICENSE-CONTENT.md).** That covers recipes, journal entries, techniques, research, kitchen notes, and photos. Share and adapt them; just credit *vibe-cooking by Brian Staruk*.
+- **Adapted recipes credit their sources,** and those original works remain their authors'.

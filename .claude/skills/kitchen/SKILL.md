@@ -28,7 +28,7 @@ Treat it as a conversation, not a form. Go one category at a time, ask 3–6 que
 2. **Look up specs fresh.** When Brian names a model ("All-Clad 3qt saucier"), search the web for the manufacturer's current specs: capacity, diameter, construction line (D3/D5/Copper Core…), oven-safe temperature, and induction compatibility. Confirm the exact variant with Brian, then record it.
 3. **Tour order** (skip categories that don't apply):
    1. **Range & oven:** fuel (gas / induction / radiant / coil), burner sizes or BTU if known, convection, whether the oven runs true (suggest an oven-thermometer check if nobody knows), and hood strength (it matters for high-heat searing).
-   2. **Cast iron:** maker, size or pattern number, and seasoning condition. For vintage pieces, record era, logo, markings, and where it came from. Brian loves this category, so act like a knowledgeable collector's assistant. For ID help, use the vintage references in `SOURCES.md`.
+   2. **Cast iron:** maker, size or pattern number, and seasoning condition. For vintage pieces, record era, logo, markings, and where it came from. Brian loves this category, so act like a knowledgeable collector's assistant. For ID help, use the vintage references in `SOURCES.md`. Photos of the markings are worth keeping. Save them to `kitchen/photos/` after processing them with `.claude/rules/photos.md`.
    3. **Carbon steel:** skillets and woks.
    4. **Stainless & clad:** saucepans, sauciers, sauté pans, stockpots. Record the construction line.
    5. **Enameled cast iron:** Dutch ovens, braisers.
