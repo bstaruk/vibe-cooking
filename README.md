@@ -6,6 +6,8 @@ A kitchen notebook that runs on [Claude Code](https://claude.com/claude-code). B
 
 There's no app, no scripts, and no CI. It's just markdown, git, and a handful of skills.
 
+The repo is public on purpose, as an example of working with AI on something other than code.
+
 ## How to use it
 
 Open this repo in the Claude Code desktop app and talk:
@@ -57,16 +59,15 @@ Claude picks the right skill on its own. If you'd rather call one directly, use 
 
 ## Kitchen tickets
 
-Nothing lands on `main` directly. Each unit of work (a recipe, a debrief, a gear report) gets its own branch and ships as a pull request. Commit messages follow our own culinary take on Conventional Commits:
+Work happens on branches and reaches `main` through pull requests. Commit messages are a cheeky nod to Conventional Commits, and there are only three prefixes:
 
-```
-plate(recipe): cast iron skillet cornbread v1
-taste(journal): cornbread cook #2, 4/5
-forage(gear): compare carbon steel woks for induction
-86(kitchen): retire the warped nonstick
-```
+| Prefix | A nod to | Use it for |
+|---|---|---|
+| `feast:` | `feat:` | something new: a recipe, technique, menu, or gear research |
+| `season:` | `fix:` | something learned or adjusted: a cook log, a tweak, a correction |
+| `chop:` | `chore:` | prep work: inventory, sources, setup, tidying |
 
-Types are `plate` · `taste` · `season` · `rescue` · `stock` · `forage` · `mise` · `garnish` · `86`. Breaking changes shout **Behind!** The full guide is in [.claude/rules/kitchen-tickets.md](.claude/rules/kitchen-tickets.md).
+Can't decide in two seconds? It's `chop:`. The full guide is in [.claude/rules/kitchen-tickets.md](.claude/rules/kitchen-tickets.md).
 
 ## What's where
 
@@ -84,7 +85,7 @@ Types are `plate` · `taste` · `season` · `rescue` · `stock` · `forage` · `
     ├── rules/         units.md · kitchen-tickets.md (always on) · recipe-format.md (recipes)
     ├── skills/        kitchen · gear · menu · recipe · cook · debrief · learn · season
     ├── agents/        kitchen-scout (parallel web research)
-    └── settings.json  pre-approved: web research, branches, commits, PRs (force-push asks)
+    └── settings.json  pre-approved: web research + local git (push & PRs always ask)
 ```
 
 ## Tuning it

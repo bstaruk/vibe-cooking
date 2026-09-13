@@ -67,4 +67,4 @@ Use this for changes to tastes, diet, goals, household, and stove or oven calibr
 ## Finish
 
 - Update the `_Last updated:` line in every file you changed.
-- Ship it following `.claude/rules/kitchen-tickets.md`. Example: `stock(kitchen): tour, cast iron & clad stainless`.
+- Commit the changes (see `.claude/rules/kitchen-tickets.md`), for example `chop: kitchen tour, cast iron & clad stainless`.

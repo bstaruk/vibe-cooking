@@ -2,13 +2,13 @@
 
 Every change to how we work (rules, formats, skills, persona) gets an entry here, newest first. Git holds the diffs. This file holds the reasons. Written by `/season`.
 
-## 2026-09-13: Kitchen tickets
+## 2026-09-13: Kitchen tickets & ground rules
 
-- **Why:** Brian wants every change to go through a pull request (with branch protection on `main`), and a commit style with some personality.
-- **Branches & PRs:** all work happens on `<type>/<slug>` branches and ships as a PR, and Brian merges. Pushing branches is now routine; force-pushes still ask first.
-- **Kitchen tickets:** a culinary twist on Conventional Commits, `<type>(<scope>)[!]: <summary>`. The types are `plate` · `taste` · `season` · `rescue` · `stock` · `forage` · `mise` · `garnish` · `86`, and breaking changes get a `Behind:` footer (see `.claude/rules/kitchen-tickets.md`).
-- **Public repo:** personal details in `kitchen/profile.md` stay general.
-- **Replaces** the first layer's rule of "commit to `main`, never push."
+- **Branches & PRs:** all work happens on a branch and reaches `main` through a pull request that Brian merges. Branch protection enforces this.
+- **Commit locally anytime; push only when asked:** Claude commits locally whenever a unit of work is done. Claude never pushes or touches pull requests unless Brian explicitly asks, and doesn't bring it up otherwise. This rule was added after Claude opened the first PR without being asked. `settings.json` now requires permission for every push and PR command.
+- **Kitchen tickets:** commit messages nod to Conventional Commits with three prefixes: `feast:` (new), `season:` (learned or adjusted), and `chop:` (prep work). The first draft had nine types plus scopes. Brian cut it down, because structure only helps if nobody has to think about it (see `.claude/rules/kitchen-tickets.md`).
+- **Public by design:** the repo is public on purpose, to show AI collaboration beyond code. Guardrails keep out secrets, exact locations, other people's details, photo GPS data, paywalled content, and affiliate links (see `CLAUDE.md`).
+- **Replaces** the first layer's "commit to `main`" rule.
 
 ## 2026-09-13: First layer
 

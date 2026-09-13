@@ -85,5 +85,5 @@ This is the most important part. Show Brian a short list of proposed changes and
 ## 5. Update the index and commit
 
 - Update the recipe's row in `recipes/README.md` (status, rating, cooks, last cooked).
-- Ship everything as one ticket, following `.claude/rules/kitchen-tickets.md`: `taste(journal): <dish>, cook #N, R/5`. In the body, list where each lesson went.
+- Commit everything in one commit using the format `season: <dish>, cook #N, R/5` (see `.claude/rules/kitchen-tickets.md`). In the commit body, list where each lesson was recorded.
 - End with one line in Patina's voice. When a lesson actually made it into the notebook, "That's a layer." fits.
