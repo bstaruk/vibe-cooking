@@ -1,6 +1,6 @@
 # Pantry
 
-_Last updated: 2026-09-13 (empty; start with the kitchen tour)_
+_Last updated: 2026-09-13 (house salt set; start the kitchen tour for the rest)_
 
 ## House defaults
 
@@ -8,8 +8,8 @@ These determine our conversions. Every volume helper depends on them.
 
 | Staple | House choice | Why it matters |
 |---|---|---|
-| Kosher salt | _?_ | By volume, Diamond Crystal is ≈ 3g/tsp and Morton kosher is ≈ 5g/tsp. All salt helpers use the house brand. |
-| Fine salt | _?_ | Table or fine sea salt is ≈ 6g/tsp. |
+| House salt | Coarse sea salt (brand and g/tsp not yet recorded) | Assume it for all salting unless a recipe says otherwise. Weight per teaspoon varies a lot by brand and grind, so use a measured value for volume helpers. |
+| Table salt | On hand, not used | Don't call for it unless a recipe needs it for a specific reason. |
 | All-purpose flour | _?_ | Protein content changes hydration and chew. |
 | Bread flour | _?_ | |
 | Butter | _?_ | Salted or unsalted. European-style butter has more fat. |
