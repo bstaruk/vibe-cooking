@@ -21,32 +21,32 @@ Open this repo in the Claude Code desktop app and talk:
 - *"Why did my pan sauce break?"*
 - *"From now on, bold every timer."*
 
-Claude picks the right skill on its own. If you'd rather call one directly, use the slash commands:
+Claude picks the right skill on its own. If you'd rather call one directly, use the slash commands. They all start with `patina-`, so typing `/patina` lists them:
 
 | Command | What it does |
 |---|---|
-| `/kitchen` | Tour and maintain the inventory (every pot with its size and call name), pantry defaults, and cook profile |
-| `/gear` | Research gear with fresh sources, compare options, decide, and track the wishlist |
-| `/menu` | Pick dishes and build a shopping list in grams plus a prep timeline |
-| `/recipe` | Write, import, adapt, or scale a recipe into the house format |
-| `/cook` | Live cook-along: mise en place card, then brigade-style step calls |
-| `/debrief` | Log the cook and fold its lessons back into recipes, techniques, and the kitchen profile |
-| `/learn` | Deep dive into a technique or the science behind it, saved as a note with experiments to try |
-| `/season` | Retro: audit the notebook and tune the rules, skills, and persona |
+| `/patina-kitchen` | Tour and maintain the inventory (every pot with its size and call name), pantry defaults, and cook profile |
+| `/patina-gear` | Research gear with fresh sources, compare options, decide, and track the wishlist |
+| `/patina-menu` | Pick dishes and build a shopping list in grams plus a prep timeline |
+| `/patina-recipe` | Write, import, adapt, or scale a recipe into the house format |
+| `/patina-cook` | Live cook-along: mise en place card, then brigade-style step calls |
+| `/patina-debrief` | Log the cook and fold its lessons back into recipes, techniques, and the kitchen profile |
+| `/patina-learn` | Deep dive into a technique or the science behind it, saved as a note with experiments to try |
+| `/patina-season` | Retro: audit the notebook and tune the rules, skills, and persona |
 
 ## The loop
 
 ```
- ┌─▶ /menu          what are we cooking?
+ ┌─▶ /patina-menu     what are we cooking?
  │     ▼
- │   /recipe        write it the house way
+ │   /patina-recipe   write it the house way
  │     ▼
- │   /cook          brigade-style cook-along
+ │   /patina-cook     brigade-style cook-along
  │     ▼
- └── /debrief       log it · fold lessons back into recipes, techniques, kitchen
+ └── /patina-debrief  log it · fold lessons back into recipes, techniques, kitchen
 
-     /season        every ~5 cooks: audit the notebook, tune the rules
-     anytime        /gear · /learn · /kitchen
+     /patina-season   every ~5 cooks: audit the notebook, tune the rules
+     anytime          /patina-gear · /patina-learn · /patina-kitchen
 ```
 
 ## House laws
@@ -86,14 +86,14 @@ Can't decide in two seconds? It's `chop:`. The full guide is in [.claude/rules/k
 ├── inbox/             drop zone for photos to process (gitignored)
 └── .claude/
     ├── rules/         units.md · kitchen-tickets.md · photos.md (always on) · recipe-format.md (recipes)
-    ├── skills/        kitchen · gear · menu · recipe · cook · debrief · learn · season
+    ├── skills/        patina-kitchen · -gear · -menu · -recipe · -cook · -debrief · -learn · -season
     ├── agents/        kitchen-scout (parallel web research)
     └── settings.json  pre-approved tools (push & PRs always ask)
 ```
 
 ## Tuning it
 
-Everything here is meant to change. Tell Patina *"from now on…"* and the relevant rule gets updated and logged in [SEASONING.md](SEASONING.md). For a bigger rethink, run `/season` for a full retro. Patina's personality has tuning knobs (wit, brigade lingo, science depth) at the top of [PATINA.md](PATINA.md).
+Everything here is meant to change. Tell Patina *"from now on…"* and the relevant rule gets updated and logged in [SEASONING.md](SEASONING.md). For a bigger rethink, run `/patina-season` for a full retro. Patina's personality has tuning knobs (wit, brigade lingo, science depth) at the top of [PATINA.md](PATINA.md).
 
 ## A note on food safety
 

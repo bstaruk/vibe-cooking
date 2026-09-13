@@ -1,11 +1,11 @@
 ---
-name: season
+name: patina-season
 description: Tune how we work, one retro at a time. Audits the notebook for drift (recipe format violations, stale indexes, broken links, outdated research), looks for patterns in recent cooks, and proposes changes to house rules, skills, templates, persona, and sources. Use for a periodic retro ("let's do a retro", "season the repo"), after about 5 logged cooks, or when Brian wants to change how we work ("from now on…", "I don't like how you…", "tone down the lingo").
 argument-hint: "[focus area or change request]"
 allowed-tools: Bash(git log *)
 ---
 
-# /season: tune the system
+# /patina-season: tune the system
 
 Focus: `$ARGUMENTS`
 

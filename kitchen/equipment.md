@@ -5,7 +5,7 @@ Everything in Brian's kitchen that recipes and cook-alongs can use.
 - **Call name**: what we call a piece everywhere, built as **size + maker + type** (`3qt All-Clad saucier`). Each call name is unique and stays the same. If one ever changes, update `recipes/` in the same commit.
   - **Numbered cast iron** uses its pattern number as the size (`Lancaster No. 8 skillet`), because the numbers aren't inches.
 - **Sizes**: diameter as sold, `12" (30cm)`, and capacity as sold, `5.5qt (5.2L)`.
-- **Maintained by** `/kitchen` and `/gear`. Specs are checked against the manufacturer's listing whenever the model is known.
+- **Maintained by** `/patina-kitchen` and `/patina-gear`. Specs are checked against the manufacturer's listing whenever the model is known.
 - **`?`** marks something Brian still needs to confirm or measure. *Unverified* marks a spec that sources couldn't confirm.
 
 _Last updated: 2026-09-13 (kitchen tour; specs checked 2026-09-13)_

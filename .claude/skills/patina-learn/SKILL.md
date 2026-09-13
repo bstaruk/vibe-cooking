@@ -1,11 +1,11 @@
 ---
-name: learn
+name: patina-learn
 description: Deep-dive into a cooking technique, ingredient, or food-science question. Explain it at the right depth and save it as an evergreen technique note with our own numbers and experiments to try. Use when Brian asks why something happens or how to master something ("why do pan sauces break", "teach me lamination", "how does dry brining work", "carbon steel vs cast iron seasoning"), wants to understand a failure, or wants to run a kitchen experiment.
 argument-hint: "[technique or question]"
 allowed-tools: WebSearch WebFetch
 ---
 
-# /learn: technique & science
+# /patina-learn: technique & science
 
 Topic: `$ARGUMENTS`
 
@@ -71,4 +71,4 @@ Links to recipes and other techniques.
 
 - Add or update the note's row in the `techniques/README.md` index.
 - Commit (see `.claude/rules/kitchen-tickets.md`): `feast: <topic>` for a new note, or `season: <topic>` when adding to an existing note.
-- If there's an experiment, offer to schedule it: add it to *On deck* in `recipes/README.md`, or plan it with `/menu`.
+- If there's an experiment, offer to schedule it: add it to *On deck* in `recipes/README.md`, or plan it with `/patina-menu`.

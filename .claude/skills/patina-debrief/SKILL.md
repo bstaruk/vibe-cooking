@@ -1,16 +1,16 @@
 ---
-name: debrief
+name: patina-debrief
 description: Log a cook and feed its lessons back into the notebook. Writes the journal entry and updates the recipe's rating, status, version, and lessons. Lessons that apply beyond one recipe go into techniques, the cook profile, or equipment notes. Use after Brian cooks anything, with or without a house recipe. Also use when Brian reports how a dish turned out, shares a photo of the result, or says "log it".
 argument-hint: "[what was cooked]"
 ---
 
-# /debrief: every cook adds a layer
+# /patina-debrief: every cook adds a layer
 
-What we cooked: `$ARGUMENTS`. If this is empty, get it from the conversation (for example, a `/cook` session that just ended).
+What we cooked: `$ARGUMENTS`. If this is empty, get it from the conversation (for example, a `/patina-cook` session that just ended).
 
 ## 1. Gather
 
-Fill in whatever the conversation already covers, such as the changes you tracked during `/cook`. Then ask the rest in one message:
+Fill in whatever the conversation already covers, such as the changes you tracked during `/patina-cook`. Then ask the rest in one message:
 
 - **Rating** from 1–5, plus a one-line verdict.
 - **Taste and texture:** seasoning, doneness, what was great, what was off.
@@ -89,7 +89,7 @@ This is the most important part. Show Brian a short list of proposed changes and
 - **Kitchen truths:** oven offsets, burner hot spots, and pan behavior go in `kitchen/equipment.md`. Tastes and preferences go in `kitchen/profile.md`.
 - **Sources:** if a source's recipe misled us or especially impressed us, note it in `SOURCES.md`.
 - **Gear:** if a limitation keeps coming up (eggs stuck for the third time, the pan was too small again), add it to *Ideas* in `kitchen/wishlist.md` along with the evidence. Don't pitch anything now.
-- **Freestyle cook that went well:** offer to turn it into a recipe with `/recipe`.
+- **Freestyle cook that went well:** offer to turn it into a recipe with `/patina-recipe`.
 
 ## 5. Update the index and commit
 

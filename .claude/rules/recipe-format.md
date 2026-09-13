@@ -5,7 +5,7 @@ paths:
 
 # Recipe format (house style)
 
-Every file in `recipes/` uses this format. Measurement rules are in `.claude/rules/units.md`. A worked example is in `.claude/skills/recipe/example.md`.
+Every file in `recipes/` uses this format. Measurement rules are in `.claude/rules/units.md`. A worked example is in `.claude/skills/patina-recipe/example.md`.
 
 ## Principles
 
@@ -62,7 +62,7 @@ Leave out an optional section if there's nothing to put in it. Never change the 
 ## Method                  (### phases → numbered steps)
 ## Make ahead & storage    (optional)
 ## Riffs                   (optional; untested ones marked *(untried)*)
-## Notes & lessons         (dated bullets from /debrief, linked to journal entries)
+## Notes & lessons         (dated bullets from /patina-debrief, linked to journal entries)
 ## Changelog               (vN (date): what changed and why)
 ## Sources
 ~~~
@@ -93,7 +93,7 @@ Format: `- **amount** ingredient (helper), prep`
 
 ## Lint checklist
 
-Run this every time a recipe is created or edited. `/season` also runs it across all recipes.
+Run this every time a recipe is created or edited. `/patina-season` also runs it across all recipes.
 
 - [ ] No volume unit (`tsp`, `tbsp`, `cup`, `fl oz`, `ml`) appears outside parentheses, and "teaspoon", "tablespoon", and "cup" are never the main measure.
 - [ ] Every ingredient in the list appears in the method with its amount, and the portions of each divided ingredient add up to its total.

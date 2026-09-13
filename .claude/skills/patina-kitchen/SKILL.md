@@ -1,10 +1,10 @@
 ---
-name: kitchen
+name: patina-kitchen
 description: Build and maintain Brian's kitchen inventory and cook profile. This covers equipment with sizes and call names, pantry defaults like the house salt, range and oven quirks, tastes, diet, and goals. Use it for the first-run kitchen tour. Also use it whenever Brian mentions gear that was bought, gifted, sold, broken, or retired ("I just got a Smithey No. 12", "the nonstick is dead"), shares photos of cookware or the pantry, or mentions a preference or constraint worth remembering.
 argument-hint: "[tour | add <item> | remove <item> | profile]"
 ---
 
-# /kitchen: inventory & cook profile
+# /patina-kitchen: inventory & cook profile
 
 Request: `$ARGUMENTS`. If it's empty, work out the mode from context. If the kitchen files are still empty, offer the tour.
 

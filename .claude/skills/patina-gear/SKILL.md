@@ -1,11 +1,11 @@
 ---
-name: gear
+name: patina-gear
 description: Research, compare, and decide on kitchen gear using fresh web research. Covers cookware (especially vintage and modern cast iron and carbon steel), knives, thermometers, scales, appliances, outdoor cookers, and gadgets. Use it whenever Brian asks about buying, upgrading, comparing, or evaluating gear ("is X worth it", "best Y right now", "what's new in Z"), wonders whether a tool would help, or wants to identify or value vintage cast iron. Never answer from training data alone.
 argument-hint: "[question or product]"
 allowed-tools: WebSearch WebFetch
 ---
 
-# /gear: research & decisions
+# /patina-gear: research & decisions
 
 Question: `$ARGUMENTS`
 
@@ -35,7 +35,7 @@ Brian is a gear nerd. Act like a trusted friend who happens to run a testing lab
 4. **Record it.**
    - For anything substantial (a real comparison or a buy decision), write `research/YYYY-MM-DD-<topic>.md` using the format below, and add or update the entry in `kitchen/wishlist.md` (Researching, Wanted, or Passed).
    - A quick answer doesn't need a report. If you learned a lasting fact, add it to the equipment row or wishlist entry.
-5. **If Brian buys it,** hand off to the `/kitchen` add flow (call name, specs, remove from the wishlist) and set `decision: bought` in the report.
+5. **If Brian buys it,** hand off to the `/patina-kitchen` add flow (call name, specs, remove from the wishlist) and set `decision: bought` in the report.
 6. **Commit** (see `.claude/rules/kitchen-tickets.md`): use `feast: <topic> research` for research, or `chop: add <item>` for a purchase.
 
 ## Research report format

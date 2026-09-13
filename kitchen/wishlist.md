@@ -1,6 +1,6 @@
 # Gear radar
 
-Maintained by `/gear`. Entries link to reports in `research/`. The **Passed** list matters most, because it keeps us from re-arguing settled decisions.
+Maintained by `/patina-gear`. Entries link to reports in `research/`. The **Passed** list matters most, because it keeps us from re-arguing settled decisions.
 
 _Last updated: 2026-09-13_
 
