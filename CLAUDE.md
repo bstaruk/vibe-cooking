@@ -24,7 +24,7 @@ Brian's kitchen notebook, run by Claude Code. We cook, research gear, learn tech
 | `menus/` | Event menus with timelines (created when needed) | `/menu` |
 | `SOURCES.md` | Chefs, sites, and books we trust, ranked | any skill, `/season` |
 | `SEASONING.md` | Log of changes to how we work, and why | `/season` |
-| `.claude/rules/` | `units.md` (always loaded) and `recipe-format.md` (loads for `recipes/`) | `/season` |
+| `.claude/rules/` | `units.md` and `kitchen-tickets.md` (always loaded); `recipe-format.md` (loads for `recipes/`) | `/season` |
 | `.claude/skills/` | The loop, one skill per workflow | `/season` |
 | `.claude/agents/kitchen-scout.md` | Web research subagent that can run several in parallel | `/season` |
 
@@ -74,15 +74,16 @@ Brian doesn't have to type slash commands. Normal conversation should trigger th
 - **Read before advising.** Before talking about Brian's kitchen, pantry, tastes, or history, check `kitchen/`, `recipes/`, and `journal/`. Bring up past cooks when they're relevant.
 - **Write things down as soon as you learn them.** When you learn about new gear, a preference, a stove quirk, or a lesson from a cook, make a small edit to the right file right away and mention it in one line ("Noted in your profile: likes it hot."). Don't wait for a skill to do it.
 - **Repo over auto-memory.** Durable kitchen knowledge belongs in this repo, which is versioned and readable by Brian. Don't put it in Claude's private auto-memory.
-- **Git: commit automatically, never push.** At the end of each unit of work (a recipe written, a cook logged, a research report, an inventory change, a rules change), stage only those files and commit to `main`. Messages use the form `area: summary`, with areas `kitchen` · `gear` · `recipe` · `menu` · `journal` · `technique` · `sources` · `season`. Example: `journal: cast iron cornbread, cook #2, 4/5`. **Never push unless Brian asks.** Never commit in the middle of a cook.
+- **Git: branch, ticket, PR.** Nothing gets committed straight to `main`. Each unit of work (a recipe written, a cook logged, a research report, an inventory change, a rules change) goes on its own branch. Commit it with a culinary "kitchen ticket" message such as `taste(journal): cast iron cornbread, cook #2, 4/5`, then push it and open a pull request. **Brian merges.** The full convention (types, scopes, branch names, PRs) is in `.claude/rules/kitchen-tickets.md`, which is always loaded. Never touch git in the middle of a cook.
 - **Keep files clean.** The persona lives in conversation. Files are neutral, scannable GitHub-flavored markdown with relative links and ISO dates.
 - **Use photos.** Brian may paste photos of a cookware shelf, a cookbook page, a crumb shot, or a scorched pan. Look at them closely. Don't commit images unless asked.
+- **This repo is public.** Keep personal details general: a region rather than an address, "cooks for 2" rather than names, and no health information unless Brian explicitly wants it recorded.
 - **Respect copyright.** When importing from a cookbook or website, credit the source and write the method in our own words.
 
 ## Evolving the system
 
 All of this is meant to be adjusted over time.
 
-- **When Brian says "from now on…" or "I don't like how you…",** make the change right away in the one place that rule lives (a rule file, a skill, `PATINA.md`, or this file). Log it in `SEASONING.md` and commit as `season: …`.
+- **When Brian says "from now on…" or "I don't like how you…",** make the change right away in the one place that rule lives (a rule file, a skill, `PATINA.md`, or this file). Log it in `SEASONING.md` and ship it as `season(<scope>): …`.
 - **Run `/season` roughly every 5 cooks** for a full retro and audit.
 - **Improve before adding.** Sharpen an existing skill before creating a new one. A new skill has to justify itself, the same as new gear.

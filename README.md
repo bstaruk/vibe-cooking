@@ -55,6 +55,19 @@ Claude picks the right skill on its own. If you'd rather call one directly, use 
 - **Real gear.** "Make this in the 3qt All-Clad saucier."
 - **Fresh research.** Gear questions get current web research, not stale training data.
 
+## Kitchen tickets
+
+Nothing lands on `main` directly. Each unit of work (a recipe, a debrief, a gear report) gets its own branch and ships as a pull request. Commit messages follow our own culinary take on Conventional Commits:
+
+```
+plate(recipe): cast iron skillet cornbread v1
+taste(journal): cornbread cook #2, 4/5
+forage(gear): compare carbon steel woks for induction
+86(kitchen): retire the warped nonstick
+```
+
+Types are `plate` · `taste` · `season` · `rescue` · `stock` · `forage` · `mise` · `garnish` · `86`. Breaking changes shout **Behind!** The full guide is in [.claude/rules/kitchen-tickets.md](.claude/rules/kitchen-tickets.md).
+
 ## What's where
 
 ```
@@ -68,10 +81,10 @@ Claude picks the right skill on its own. If you'd rather call one directly, use 
 ├── techniques/        lasting know-how & the science behind it
 ├── research/          dated gear research reports
 └── .claude/
-    ├── rules/         units.md (always on) · recipe-format.md (recipes)
+    ├── rules/         units.md · kitchen-tickets.md (always on) · recipe-format.md (recipes)
     ├── skills/        kitchen · gear · menu · recipe · cook · debrief · learn · season
     ├── agents/        kitchen-scout (parallel web research)
-    └── settings.json  pre-approved: web research + local git commits (push always asks)
+    └── settings.json  pre-approved: web research, branches, commits, PRs (force-push asks)
 ```
 
 ## Tuning it

@@ -21,7 +21,7 @@ Use this path when Brian asks for something specific, like "from now on, bold ev
 
 1. Find where the behavior is defined (`PATINA.md`, `.claude/rules/*`, a skill, or `CLAUDE.md`) and change it there. Each rule lives in exactly one place. Don't copy rules between files.
 2. If existing files break the new rule (recipes, for example), offer to update them now.
-3. Add an entry to `SEASONING.md` and commit with `season: <change>`. That's it; no full retro needed.
+3. Add an entry to `SEASONING.md` and ship it as `season(<scope>): <change>`. If existing files had to be migrated, add `!` and a `Behind:` footer (see `.claude/rules/kitchen-tickets.md`). That's it; no full retro needed.
 
 ## Full retro
 
@@ -34,6 +34,7 @@ List what you find, but don't fix anything yet.
 - **Indexes:** `recipes/README.md` and `techniques/README.md` match the files on disk, and each recipe's `cooks` and `last_cooked` match its journal entries.
 - **Staleness:** `research/` reports past their `refresh_after` date, `raw` recipes that have sat on deck for months, and wishlist items stuck in "researching."
 - **Sources:** entries in `SOURCES.md` older than a year without a status check, sources the journal says misled us, and new names that keep coming up.
+- **Git:** PRs that have been left open, and local branches that were already merged.
 
 ### 2. Look for patterns
 
@@ -69,4 +70,4 @@ A new skill needs a real reason to exist. Prefer improving an existing one.
   - Audit: N fixes applied
   - Parked: ideas we deferred
   ~~~
-- Commit with `season: <title>`.
+- Ship it as `season(<scope>): <title>`, following `.claude/rules/kitchen-tickets.md`.

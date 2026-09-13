@@ -41,4 +41,4 @@ Then ask for only what's still missing, all in one message: how many people, whe
 ## Save the plan, or don't
 
 - **Weeknight dinners and quick lists** stay in chat. No file.
-- **Multi-dish events** (a holiday, a dinner party, a big cook day) get saved to `menus/YYYY-MM-DD-<event>.md` with the menu, timeline, and shopping list, then committed as `menu: <event>`. After the event, `/debrief` can log each dish and link back to the menu.
+- **Multi-dish events** (a holiday, a dinner party, a big cook day) get saved to `menus/YYYY-MM-DD-<event>.md` with the menu, timeline, and shopping list, then shipped as `plate(menu): <event>` (see `.claude/rules/kitchen-tickets.md`). After the event, `/debrief` can log each dish and link back to the menu.
