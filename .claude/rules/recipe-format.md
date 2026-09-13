@@ -51,6 +51,8 @@ Leave out an optional section if there's nothing to put in it. Never change the 
 
 > One-sentence hook: what it is and what makes this version ours.
 
+![Descriptive alt text](../journal/2026/photos/….jpg)   (optional hero: the best journal photo, linked not copied)
+
 **Serves** 8 · **Active** 15 min · **Total** 50 min · **Status** raw · v1
 
 ## Why this works          (2–4 bullets: the technique and science that matter)

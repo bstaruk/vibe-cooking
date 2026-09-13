@@ -24,7 +24,9 @@ Brian's kitchen notebook, run by Claude Code. We cook, research gear, learn tech
 | `menus/` | Event menus with timelines (created when needed) | `/menu` |
 | `SOURCES.md` | Chefs, sites, and books we trust, ranked | any skill, `/season` |
 | `SEASONING.md` | Log of changes to how we work, and why | `/season` |
-| `.claude/rules/` | `units.md` and `kitchen-tickets.md` (always loaded); `recipe-format.md` (loads for `recipes/`) | `/season` |
+| `inbox/` | Drop zone for photos waiting to be processed (gitignored) | Brian |
+| `LICENSE`, `LICENSE-CONTENT.md` | MIT for the setup, CC BY 4.0 for the content | n/a |
+| `.claude/rules/` | `units.md`, `kitchen-tickets.md`, and `photos.md` (always loaded); `recipe-format.md` (loads for `recipes/`) | `/season` |
 | `.claude/skills/` | The loop, one skill per workflow | `/season` |
 | `.claude/agents/kitchen-scout.md` | Web research subagent that can run several in parallel | `/season` |
 
@@ -80,7 +82,7 @@ Brian doesn't have to type slash commands. Normal conversation should trigger th
   - **Never push to origin, and never open, edit, comment on, or merge a pull request, unless Brian explicitly asks for it at that moment.** Don't suggest it, offer it, or remind Brian about it either. Brian will ask when ready.
   - Never touch git in the middle of a cook.
 - **Keep files clean.** The persona lives in conversation. Files are neutral, scannable GitHub-flavored markdown with relative links and ISO dates.
-- **Use photos.** Brian may paste photos of a cookware shelf, a cookbook page, a crumb shot, or a scorched pan. Look at them closely. Don't commit images unless asked.
+- **Use photos.** Brian may paste photos of a cookware shelf, a cookbook page, a crumb shot, or a scorched pan. Look at them closely. Photos worth keeping, like the finished dish, the crumb, or a skillet's markings, go into the notebook by following `.claude/rules/photos.md`.
 
 ## Public by design
 
@@ -91,8 +93,10 @@ Nothing here is secret, but because the repo is public, follow these guardrails:
 - **Never commit secrets.** That means API keys, tokens, passwords, account or order numbers, and receipts.
 - **Keep location general.** A region or climate is fine. Never include an address or anything that pinpoints the house.
 - **Let Brian decide about other people.** Refer to guests and family by first name or by role ("the in-laws") unless Brian says otherwise. Don't commit photos that show people without an explicit OK.
-- **Strip GPS data from photos.** Phone photos carry location metadata, so remove the EXIF location data before committing any image.
+- **Process every photo.** Phone photos carry GPS and device metadata. Before committing any image, run it through `.claude/rules/photos.md` (resize it, strip the metadata, verify) and check the frame for anything that shouldn't be public.
 - **Respect creators.** Credit sources and write methods in our own words. Never paste in paywalled content (ATK, NYT Cooking), and never commit photos of cookbook pages.
+- **Only commit what we can license.** The setup is MIT and the content is CC BY 4.0 (see `LICENSE` and `LICENSE-CONTENT.md`). That means only our own words and photos Brian took. Credited sources still belong to their authors.
+- **Keep both voices visible.** Journal entries quote Brian's own words about a cook next to Claude's diagnosis, so readers see the real exchange. Fix obvious typos only, and never reword the quote.
 - **Keep links clean.** No affiliate or referral links. Remove tracking parameters (`utm_*`, `ref=`) from URLs.
 - **Check the diff before each commit** for anything on this list.
 

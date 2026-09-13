@@ -39,4 +39,5 @@ chop: tidy sources tables
   - If it has merged, switch to `main`, pull, and start a new branch.
   - Otherwise, keep committing on the current branch. One branch can hold several units of work.
 - **Commit locally** whenever a unit of work is done. There's no need to ask first.
+- **Every commit lands on `main`.** PRs are rebase-merged, so each commit becomes a permanent ticket in the history. Don't make `wip` commits or "fix the last commit" commits. To fix a commit that hasn't been pushed yet, amend it. Never rewrite commits that have already been pushed.
 - **Only push or touch a pull request when Brian explicitly asks** (see `CLAUDE.md`). If Brian asks for a push to a branch with an open PR, update the PR's title and description if they're out of date.

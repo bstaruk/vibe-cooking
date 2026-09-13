@@ -17,9 +17,9 @@ Fill in whatever the conversation already covers, such as the changes you tracke
 - **What changed** from the recipe. Confirm the list you tracked.
 - **Who ate it** and how it went over (optional).
 - **Next time:** what would Brian change?
-- **Photo** (optional). If there is one, look closely at browning, crumb, and doneness.
+- **Photos** (optional): look closely at browning, crumb, and doneness. If Brian wants photos in the log, the original files go in `inbox/`. Process them with `.claude/rules/photos.md`.
 
-Keep it light. If Brian answers in one sentence, work with that sentence.
+Keep it light. If Brian answers in one sentence, work with that sentence, and keep Brian's exact words, because they get quoted in the entry.
 
 ## 2. Diagnose
 
@@ -48,7 +48,12 @@ tags: [bread, cast-iron]
 
 # Cast Iron Cornbread: cook #1
 
+![Cornbread wedge with a crackly golden crust](photos/2026-09-20-cast-iron-cornbread-1.jpg)
+
 **Verdict:** 4/5. Great crust; a touch dry from pulling it 2 min late.
+
+## In Brian's words
+> crust was insane. center a little dry, pretty sure I pulled it late
 
 ## What we did
 Short bullets: scaling, swaps, and anything that differed from the recipe, with timings.
@@ -67,6 +72,9 @@ A couple of lines linking each cause to its effect.
 - 1–2 concrete things to try.
 ~~~
 
+- **In Brian's words** quotes what Brian actually said about the result. Fix obvious typos, and trim with … if it runs long, but never reword or polish it. Everything else in the entry is Claude's writing; this section is Brian's.
+- **Photos** are optional. Put them under the title and process them with `.claude/rules/photos.md`.
+
 ## 4. Feed the lessons back
 
 This is the most important part. Show Brian a short list of proposed changes and apply them after a quick OK (a thumbs-up is enough). Make all the edits in one pass.
@@ -76,6 +84,7 @@ This is the most important part. Show Brian a short list of proposed changes and
   - Update `status`. Move `raw` to `seasoned` after the first cook. Only move to `heirloom` when Brian says the recipe is dialed in. If it gets a 5 twice in a row with no changes, *suggest* the promotion, but don't make it.
   - If the method or quantities change, make the edits, bump `version`, and add a *Changelog* line with the reason and a link to the journal entry. Re-run the format lint on anything you touched, and confirm the inline amounts still match the ingredient list.
   - Add a dated bullet to *Notes & lessons* that links to the journal entry.
+  - If this cook produced the best photo so far, make it the recipe's hero image. Link to the journal photo rather than copying it (see `recipe-format.md`).
 - **Techniques** (`techniques/`): if a lesson applies beyond this recipe (how our induction handles pan sauces, dry-brine timing), add it to an existing technique note or create a new one.
 - **Kitchen truths:** oven offsets, burner hot spots, and pan behavior go in `kitchen/equipment.md`. Tastes and preferences go in `kitchen/profile.md`.
 - **Sources:** if a source's recipe misled us or especially impressed us, note it in `SOURCES.md`.
