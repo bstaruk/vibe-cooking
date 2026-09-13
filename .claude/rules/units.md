@@ -6,12 +6,15 @@ These rules apply everywhere: recipes, journal entries, cook-alongs, shopping li
 
 - **Every ingredient's primary amount is its weight in grams.** That includes liquids (water, milk, stock, oil, wine). The scale doesn't care how thick something is.
 - **Format:** the number followed by `g` with no space: `200g bread flour`. Use `kg` only for whole items over 1kg: `2.3kg pork shoulder`.
-- **Volume only appears as a helper,** in parentheses and abbreviated: `5g kosher salt (1½ tsp Diamond Crystal)`, `240g whole milk (1 cup)`.
+- **Volume only appears as a helper,** in parentheses and abbreviated: `4g baking powder (1 tsp)`, `240g whole milk (1 cup)`.
   - ✅ `15g honey (2 tsp)`
   - ❌ `2 tsp honey` · ❌ `2 teaspoons (15g) honey`
   - Never spell out "teaspoon", "tablespoon", or "cup" as the main measure.
-- **Precision:** use whole grams from 10g up. Below 10g, use whole grams, or 0.5g steps below 5g. **Below 3g, always add a volume helper,** because a scale that reads in 1g steps can't measure that reliably.
-- **Salt helpers name the brand,** because kosher salts differ by almost 2× by volume. Approximate weights: Diamond Crystal ≈ 3g/tsp, Morton kosher ≈ 5g/tsp, table salt or fine sea salt ≈ 6g/tsp. Use the house salt listed in `kitchen/pantry.md`. If that's unknown, give both: `(1½ tsp Diamond Crystal · 1 tsp Morton)`.
+- **Precision:** use whole grams from 10g up. Below 10g, use whole grams, or 0.5g steps below 5g. **Below 3g, always add a volume helper,** because a scale that reads in 1g steps can't measure that reliably. Scaled amounts follow the same steps.
+- **Salt:**
+  - **The house salt** is recorded in `kitchen/pantry.md`. Assume it unless a recipe needs a different salt for a specific reason.
+  - **Helpers use our measured weight.** Salts vary so much by brand and grind that generic volume conversions mislead. The house salt's volume helper comes from the g/tsp recorded in `pantry.md`. Until that's recorded, write salt in grams only; this is the one exception to the below-3g helper rule.
+  - **Converting a source recipe:** turn its salt volume into grams with that brand's reference weight (Diamond Crystal ≈ 3g/tsp, Morton kosher ≈ 5g/tsp, table salt or fine sea salt ≈ 6g/tsp), then use the same grams of house salt.
 - **Exceptions where the count comes first** (still with a gram helper):
   - Eggs outside of baking: `2 large eggs (~100g)`. In baking, flip it: `100g beaten egg (~2 large)`.
   - Whole items where the exact size doesn't matter much: `4 bone-in chicken thighs (~800g)`.
@@ -26,7 +29,7 @@ These rules apply everywhere: recipes, journal entries, cook-alongs, shopping li
 
 ## Temperature: °F first, °C helper
 
-- Write it as `425°F (220°C)`. For oven temps, round °C to the nearest 5. For probe, sugar, frying-oil, and sous vide temps, convert exactly to the nearest 1°C: `131°F (55°C)`.
+- Write it as `425°F (220°C)`. For oven temps, round °C to the nearest 5. For probe, surface (IR), sugar, frying-oil, and sous vide temps, convert exactly to the nearest 1°C: `131°F (55°C)`.
 - When a probe can measure doneness, state it as a temperature, including a pull temp that accounts for carryover cooking: `pull at 126°F (52°C) → rests to ~131°F (55°C)`.
 
 ## Length & size: inches first, cm helper
@@ -36,6 +39,7 @@ These rules apply everywhere: recipes, journal entries, cook-alongs, shopping li
 ## Time: always paired with a cue
 
 - `Sear 3–4 min, until a deep brown crust releases on its own.` Stoves and pans vary, but visual and physical cues hold.
+- **Rests, holds, and storage times don't need a cue:** `rest 5 min`, `keeps 2 days`. Everything else, including proofing and chilling, gets one.
 - Write ranges with an en dash: `3–4 min`. For make-ahead plans, use actual clock times: `Fri 7:00pm`.
 
 ## Heat

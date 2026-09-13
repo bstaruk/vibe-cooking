@@ -8,7 +8,7 @@ These determine our conversions. Every volume helper depends on them.
 
 | Staple | House choice | Why it matters |
 |---|---|---|
-| House salt | Coarse sea salt (brand and g/tsp not yet recorded) | Assume it for all salting unless a recipe says otherwise. Weight per teaspoon varies a lot by brand and grind, so use a measured value for volume helpers. |
+| House salt | Coarse sea salt (brand and g/tsp not yet recorded) | Assume it for all salting unless a recipe says otherwise. Salt helpers wait for a weighed teaspoon (see `.claude/rules/units.md`). |
 | Table salt | On hand, not used | Don't call for it unless a recipe needs it for a specific reason. |
 | All-purpose flour | _?_ | Protein content changes hydration and chew. |
 | Bread flour | _?_ | |

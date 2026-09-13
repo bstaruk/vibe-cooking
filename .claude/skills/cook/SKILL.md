@@ -24,7 +24,7 @@ Send this as one scannable message:
 - **Preheat:** what needs to heat up, and when to start it.
 - **Weigh out:** the ingredients, already scaled, grouped by the step that uses them.
   - Round eggs to whole eggs. In baking, adjust the other liquids to match.
-  - Round amounts under 10g to the nearest 0.5g.
+  - Round scaled amounts using the precision rules in `.claude/rules/units.md`.
   - Flag it if scaling changes the cook time or the pan you need.
 - **Timeline:** if Brian gave a serving time, work backward from it and give clock times.
 
