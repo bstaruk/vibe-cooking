@@ -13,22 +13,22 @@ Brian's kitchen notebook, run by Claude Code. We cook, research gear, learn tech
 
 | Path | What lives there | Written by |
 |---|---|---|
-| `kitchen/equipment.md` | Every pot, pan, knife, and gadget, with sizes and **call names** | `/kitchen`, `/gear` |
-| `kitchen/pantry.md` | House defaults (including the house salt) and staples | `/kitchen` |
-| `kitchen/profile.md` | Tastes, diet, household, goals | `/kitchen`, `/debrief` |
-| `kitchen/wishlist.md` | Gear radar: wanted, researching, ideas, passed (with reasons) | `/gear` |
-| `recipes/` | One file per house recipe. `recipes/README.md` is the index and the *On deck* list | `/recipe`, `/debrief` |
-| `journal/YYYY/` | One log per cook, recording what actually happened | `/debrief` |
-| `techniques/` | Evergreen know-how and the science behind it | `/learn`, `/debrief` |
-| `research/` | Dated gear and product research reports | `/gear` |
-| `menus/` | Event menus with timelines (created when needed) | `/menu` |
-| `SOURCES.md` | Chefs, sites, and books we trust, ranked | any skill, `/season` |
-| `SEASONING.md` | Log of changes to how we work, and why | `/season` |
+| `kitchen/equipment.md` | Every pot, pan, knife, and gadget, with sizes and **call names** | `/patina-kitchen`, `/patina-gear` |
+| `kitchen/pantry.md` | House defaults (including the house salt) and staples | `/patina-kitchen` |
+| `kitchen/profile.md` | Tastes, diet, household, goals | `/patina-kitchen`, `/patina-debrief` |
+| `kitchen/wishlist.md` | Gear radar: wanted, researching, ideas, passed (with reasons) | `/patina-gear` |
+| `recipes/` | One file per house recipe. `recipes/README.md` is the index and the *On deck* list | `/patina-recipe`, `/patina-debrief` |
+| `journal/YYYY/` | One log per cook, recording what actually happened | `/patina-debrief` |
+| `techniques/` | Evergreen know-how and the science behind it | `/patina-learn`, `/patina-debrief` |
+| `research/` | Dated gear and product research reports | `/patina-gear` |
+| `menus/` | Event menus with timelines (created when needed) | `/patina-menu` |
+| `SOURCES.md` | Chefs, sites, and books we trust, ranked | any skill, `/patina-season` |
+| `SEASONING.md` | Log of changes to how we work, and why | `/patina-season` |
 | `inbox/` | Drop zone for photos waiting to be processed (gitignored) | Brian |
 | `LICENSE`, `LICENSE-CONTENT.md` | MIT for the setup, CC BY 4.0 for the content | n/a |
-| `.claude/rules/` | `units.md`, `kitchen-tickets.md`, and `photos.md` (always loaded); `recipe-format.md` (loads for `recipes/`) | `/season` |
-| `.claude/skills/` | The loop, one skill per workflow | `/season` |
-| `.claude/agents/kitchen-scout.md` | Web research subagent that can run several in parallel | `/season` |
+| `.claude/rules/` | `units.md`, `kitchen-tickets.md`, and `photos.md` (always loaded); `recipe-format.md` (loads for `recipes/`) | `/patina-season` |
+| `.claude/skills/` | The loop, one skill per workflow | `/patina-season` |
+| `.claude/agents/kitchen-scout.md` | Web research subagent that can run several in parallel | `/patina-season` |
 
 ## House laws
 
@@ -46,35 +46,35 @@ These apply everywhere: chat, recipes, shopping lists, and callouts during a coo
 ## The loop
 
 ```
- ┌─▶ /menu          what are we cooking?
+ ┌─▶ /patina-menu     what are we cooking?
  │     ▼
- │   /recipe        write it the house way
+ │   /patina-recipe   write it the house way
  │     ▼
- │   /cook          brigade-style cook-along
+ │   /patina-cook     brigade-style cook-along
  │     ▼
- └── /debrief       log it · fold lessons back into recipes, techniques, kitchen
+ └── /patina-debrief  log it · fold lessons back into recipes, techniques, kitchen
 
-     /season        every ~5 cooks: audit the notebook, tune the rules
-     anytime        /gear · /learn · /kitchen
+     /patina-season   every ~5 cooks: audit the notebook, tune the rules
+     anytime          /patina-gear · /patina-learn · /patina-kitchen
 ```
 
 | Skill | Sounds like | Writes to |
 |---|---|---|
-| `/kitchen` | "Let's do the kitchen tour" · "I just got a Smithey No. 12" | `kitchen/` |
-| `/gear` | "Is the Field No. 10 worth it?" · "Best leave-in probe right now?" | `research/`, `kitchen/wishlist.md` |
-| `/menu` | "What should I make Saturday for six?" · "Help me use up this cabbage" | `menus/` (events only) |
-| `/recipe` | "Make this a house recipe: <url>" · "Let's write a birria recipe" | `recipes/` |
-| `/cook` | "Let's cook the cornbread" · "My sauce just broke" | nothing (mid-cook) |
-| `/debrief` | "Dinner's done: 4/5, a little dry" | `journal/`, recipes, techniques, kitchen |
-| `/learn` | "Why do pan sauces break?" · "Teach me lamination" | `techniques/` |
-| `/season` | "Let's do a retro" · "From now on, bold every timer" | rules, skills, `PATINA.md`, `SEASONING.md` |
+| `/patina-kitchen` | "Let's do the kitchen tour" · "I just got a Smithey No. 12" | `kitchen/` |
+| `/patina-gear` | "Is the Field No. 10 worth it?" · "Best leave-in probe right now?" | `research/`, `kitchen/wishlist.md` |
+| `/patina-menu` | "What should I make Saturday for six?" · "Help me use up this cabbage" | `menus/` (events only) |
+| `/patina-recipe` | "Make this a house recipe: <url>" · "Let's write a birria recipe" | `recipes/` |
+| `/patina-cook` | "Let's cook the cornbread" · "My sauce just broke" | nothing (mid-cook) |
+| `/patina-debrief` | "Dinner's done: 4/5, a little dry" | `journal/`, recipes, techniques, kitchen |
+| `/patina-learn` | "Why do pan sauces break?" · "Teach me lamination" | `techniques/` |
+| `/patina-season` | "Let's do a retro" · "From now on, bold every timer" | rules, skills, `PATINA.md`, `SEASONING.md` |
 
 Brian doesn't have to type slash commands. Normal conversation should trigger the right skill; the commands are shortcuts.
 
 ## Working agreements
 
 - **Read before advising.** Before talking about Brian's kitchen, pantry, tastes, or history, check `kitchen/`, `recipes/`, and `journal/`. Bring up past cooks when they're relevant.
-- **Write things down as soon as you learn them.** When you learn about new gear, a preference, a stove quirk, or a lesson from a cook, make a small edit to the right file right away and mention it in one line ("Noted in your profile: likes it hot."). Don't wait for a skill to do it. During `/cook`, keep a running note instead; `/debrief` writes it down.
+- **Write things down as soon as you learn them.** When you learn about new gear, a preference, a stove quirk, or a lesson from a cook, make a small edit to the right file right away and mention it in one line ("Noted in your profile: likes it hot."). Don't wait for a skill to do it. During `/patina-cook`, keep a running note instead; `/patina-debrief` writes it down.
 - **Repo over auto-memory.** Durable kitchen knowledge belongs in this repo, which is versioned and readable by Brian. Don't put it in Claude's private auto-memory.
 - **Git: commit freely, never push.**
   - Commit locally whenever a unit of work is done. Work on a branch, never on `main`.
@@ -106,5 +106,5 @@ All of this is meant to be adjusted over time.
 
 - **When Brian says "from now on…" or "I don't like how you…",** make the change right away in the one place that rule lives (a rule file, a skill, `PATINA.md`, or this file). Log the change in `SEASONING.md` and commit it as `season: …`.
 - **One rule, one home.** Each rule's details (numbers, examples, exceptions, procedures) live in exactly one file. Other files may restate a rule as a one-line headline with a pointer to that file, never with the specifics. Copied details are how rules drift apart.
-- **Run `/season` roughly every 5 cooks** for a full retro and audit.
+- **Run `/patina-season` roughly every 5 cooks** for a full retro and audit.
 - **Improve before adding.** Sharpen an existing skill before creating a new one. A new skill has to justify itself, the same as new gear.

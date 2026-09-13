@@ -1,10 +1,10 @@
 ---
-name: recipe
+name: patina-recipe
 description: Write, import, adapt, or scale recipes into the house format. That means grams first, °F (°C), quantities restated inline in every step, and Brian's own gear named by call name. Use when Brian wants to save or create a recipe; turn a URL, cookbook photo, video, or rough notes into a house recipe; adapt or remix an existing one; or convert a volume-based recipe to weights.
 argument-hint: "[dish idea | URL | recipe name]"
 ---
 
-# /recipe: write it the house way
+# /patina-recipe: write it the house way
 
 Input: `$ARGUMENTS`
 
@@ -15,7 +15,7 @@ Input: `$ARGUMENTS`
 - **New recipe from an idea** ("let's do birria"): research it first (step 2).
 - **Import** (URL, pasted text, cookbook photo, video transcript): fetch or read the source, then convert it.
 - **Adapt an existing house recipe:** edit it in place and bump `version`. If the change is big, add it under *Riffs* or create a new file that links back to the original.
-- **Scale or convert only:** for a one-off cook, do it in chat without touching the file (that's `/cook`'s job). For a permanent change, bump the version.
+- **Scale or convert only:** for a one-off cook, do it in chat without touching the file (that's `/patina-cook`'s job). For a permanent change, bump the version.
 
 Before writing, check `recipes/README.md` and grep `recipes/` for duplicates or near-duplicates.
 
@@ -42,7 +42,7 @@ Before writing, check `recipes/README.md` and grep `recipes/` for duplicates or 
   - Deep frying: oil no more than ~½ full.
   - Searing: the food must fit in a single layer.
 - If nothing Brian owns fits, say so and suggest batching. Only note a gear idea if the gap will come up again.
-- If the inventory is still empty, use generic equipment with sizes (`12" (30cm) cast iron skillet`) and mention that `/kitchen` would personalize it.
+- If the inventory is still empty, use generic equipment with sizes (`12" (30cm) cast iron skillet`) and mention that `/patina-kitchen` would personalize it.
 
 ## 5. Write
 
@@ -60,4 +60,4 @@ Run the checklist in `recipe-format.md` every time, line by line, not from memor
 - Commit (see `.claude/rules/kitchen-tickets.md`):
   - New recipe: `feast: <title> v1`
   - Tweak or correction: `season: <title> v3, <what changed>`
-- End with one line offering the natural next step: cook it now (`/cook`) or put it on a menu (`/menu`).
+- End with one line offering the natural next step: cook it now (`/patina-cook`) or put it on a menu (`/patina-menu`).

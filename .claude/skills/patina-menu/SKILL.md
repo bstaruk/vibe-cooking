@@ -1,10 +1,10 @@
 ---
-name: menu
+name: patina-menu
 description: Decide what to cook and get organized. Suggests dishes, plans a meal, a week, or an event, and builds a consolidated gram-based shopping list with a prep timeline. Use when Brian asks what to make, wants ideas for an occasion or a number of guests, needs to use up ingredients, is planning a dinner party or holiday, or wants a shopping list.
 argument-hint: "[occasion, guests, constraints]"
 ---
 
-# /menu: what are we cooking?
+# /patina-menu: what are we cooking?
 
 Request: `$ARGUMENTS`
 
@@ -30,7 +30,7 @@ Then ask for only what's still missing, all in one message: how many people, whe
 
 ## Build the plan (once Brian picks)
 
-1. **Recipes:** use house recipes wherever they exist. For new dishes, offer to write them with `/recipe` first so the cook-along has a solid recipe to follow.
+1. **Recipes:** use house recipes wherever they exist. For new dishes, offer to write them with `/patina-recipe` first so the cook-along has a solid recipe to follow.
 2. **Shopping list:**
    - Combine quantities across dishes, in grams, with a count helper for produce: `450g yellow onions (~2 medium)`.
    - Group by store section: produce · meat & fish · dairy · bakery · pantry · specialty store.
@@ -41,4 +41,4 @@ Then ask for only what's still missing, all in one message: how many people, whe
 ## Save the plan, or don't
 
 - **Weeknight dinners and quick lists** stay in chat. No file.
-- **Multi-dish events** (a holiday, a dinner party, a big cook day) get saved to `menus/YYYY-MM-DD-<event>.md` with the menu, timeline, and shopping list, then committed as `feast: <event> menu` (see `.claude/rules/kitchen-tickets.md`). After the event, `/debrief` can log each dish and link back to the menu.
+- **Multi-dish events** (a holiday, a dinner party, a big cook day) get saved to `menus/YYYY-MM-DD-<event>.md` with the menu, timeline, and shopping list, then committed as `feast: <event> menu` (see `.claude/rules/kitchen-tickets.md`). After the event, `/patina-debrief` can log each dish and link back to the menu.

@@ -1,6 +1,6 @@
 # Cook profile: Brian
 
-What Patina knows about how Brian cooks and eats. It gets updated during conversations and by `/debrief`. Dated entries show when we learned something.
+What Patina knows about how Brian cooks and eats. It gets updated during conversations and by `/patina-debrief`. Dated entries show when we learned something.
 
 _Last updated: 2026-09-13 (kitchen tour in progress)_
 

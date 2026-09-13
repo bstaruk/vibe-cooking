@@ -1,6 +1,13 @@
 # Seasoning log
 
-Every change to how we work (rules, formats, skills, persona) gets an entry here, newest first. Git holds the diffs. This file holds the reasons. Written by `/season`.
+Every change to how we work (rules, formats, skills, persona) gets an entry here, newest first. Git holds the diffs. This file holds the reasons. Written by `/patina-season`.
+
+## 2026-09-13: The patina- namespace
+
+- **Why:** skills now share a prefix, so typing `/patina` in Claude Code lists all eight together instead of scattering them among built-in and plugin commands. Short names like `/cook` and `/season` could also collide with other skills.
+- **Renamed:** `/kitchen`, `/gear`, `/menu`, `/recipe`, `/cook`, `/debrief`, `/learn`, and `/season` are now `/patina-kitchen`, `/patina-gear`, and so on. The folders in `.claude/skills/` and each skill's `name` were renamed to match.
+- **Migrated:** every current reference in `CLAUDE.md`, `PATINA.md`, `README.md`, the rules, the skills, and the folder READMEs. Older entries in this log keep the names that were in use when they were written.
+- **Unchanged:** normal conversation still triggers the right skill, so nobody has to type the prefix.
 
 ## 2026-09-13: One rule, one home
 

@@ -1,10 +1,10 @@
 ---
-name: cook
+name: patina-cook
 description: Live cook-along mode. Guides Brian through a recipe in real time. First it scales the recipe, sets up mise en place, and builds a timeline that works back from serving time. Then it calls out the steps one at a time, brigade-style, with quick troubleshooting along the way. Use it when Brian is cooking now or about to start ("let's cook X", "starting the cornbread"), or asks for help mid-cook ("my sauce broke", "is this done?").
 argument-hint: "[recipe] [servings] [serve time]"
 ---
 
-# /cook: brigade mode
+# /patina-cook: brigade mode
 
 Recipe and details: `$ARGUMENTS`
 
@@ -12,7 +12,7 @@ Brian may be working with wet hands and a hot pan, reading this on a phone acros
 
 ## 1. Get set up
 
-1. **Find the recipe** in `recipes/`. If there isn't one ("let's just make a pan sauce"), cook freestyle from your own knowledge and `techniques/`, still following the house rules. If it turns out well, offer to save it with `/recipe` afterward.
+1. **Find the recipe** in `recipes/`. If there isn't one ("let's just make a pan sauce"), cook freestyle from your own knowledge and `techniques/`, still following the house rules. If it turns out well, offer to save it with `/patina-recipe` afterward.
 2. **Check the history.** Read the recipe's *Notes & lessons* and its most recent journal entry. Mention past lessons before starting: "Last time: pull at 21 min in the 12"."
 3. **Ask the setup questions in one message**, skipping anything Brian has already told you: how many servings, when to eat, and whether any ingredients are missing or swapped.
 
@@ -48,4 +48,4 @@ Keep a running note of everything that differs from the recipe: swaps, times tha
 When the last step is done:
 
 - Give a short send-off ("Plate up. That's service.") and vary it from time to time.
-- Recap the changes in 3–5 bullets, and invite a debrief after eating: "Tell me how it tasted when you're done and we'll log it." (`/debrief`)
+- Recap the changes in 3–5 bullets, and invite a debrief after eating: "Tell me how it tasted when you're done and we'll log it." (`/patina-debrief`)

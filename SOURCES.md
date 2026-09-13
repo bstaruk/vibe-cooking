@@ -11,7 +11,7 @@ This file lists who we trust, for what, and how much. When researching, start at
 - **Tier 3, inspiration:** great for ideas, voice, and culture. Verify the technique and quantities before relying on them.
 - **Caution:** known problems. Read with care, or avoid.
 - **Our results come first.** Anything in `journal/` or `techniques/` outranks every source here. When a source misleads or impresses us, add a dated note with a link to its entry.
-- **Ownership and staff change.** `/season` rechecks any status older than a year.
+- **Ownership and staff change.** `/patina-season` rechecks any status older than a year.
 
 ### Weighing evidence on gear and products
 

@@ -83,7 +83,7 @@ cooks: 0
 
 ## Notes & lessons
 
-_None yet. `/debrief` adds dated bullets here, like:_
+_None yet. `/patina-debrief` adds dated bullets here, like:_
 _`- 2026-09-20: 25 min was 2 min too long in the 12" skillet; pull at 21 min. ([cook #1](../journal/2026/2026-09-20-cast-iron-cornbread.md))`_
 
 ## Changelog
