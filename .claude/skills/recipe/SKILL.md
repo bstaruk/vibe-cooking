@@ -28,7 +28,7 @@ Before writing, check `recipes/README.md` and grep `recipes/` for duplicates or 
 ## 3. Convert
 
 - **Volume to grams:** use trusted density data (King Arthur's ingredient weight chart for baking staples, manufacturer or USDA data for everything else). If a conversion is uncertain (packed herbs, chopped vegetables), mark it with `~` and add a line to *Notes & lessons* asking for a weighed value next cook.
-- **Salt helpers:** use the house salt from `kitchen/pantry.md`.
+- **Salt:** follow the salt rule in `.claude/rules/units.md`.
 - **Sanity-check ratios** after converting:
   - Bread dough: salt is usually ~1.8–2.2% of flour weight.
   - Dry brines: usually ~0.75–1.25% salt by weight of the meat.
@@ -52,12 +52,7 @@ Before writing, check `recipes/README.md` and grep `recipes/` for duplicates or 
 
 ## 6. Lint
 
-Run the checklist in `recipe-format.md` every time. Actually go through it; don't check it from memory. At minimum, re-read the Method with the ingredient list open next to it and confirm:
-
-- Every ingredient appears with its amount in the step that uses it, and divided portions add up to the total.
-- No volume unit appears outside parentheses, and "teaspoon", "tablespoon", and "cup" are never spelled out as the main measure.
-- Every temperature is written `°F (°C)`, and every time has a cue.
-- Every call name exists in `kitchen/equipment.md`, and every vessel is big enough.
+Run the checklist in `recipe-format.md` every time, line by line, not from memory. The reliable way is to re-read the Method with the ingredient list open next to it.
 
 ## 7. Index and commit
 

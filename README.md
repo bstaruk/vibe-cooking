@@ -51,7 +51,7 @@ Claude picks the right skill on its own. If you'd rather call one directly, use 
 
 ## House laws
 
-- **Grams first.** Volume shows up only as helper text: `5g kosher salt (1½ tsp Diamond Crystal)`.
+- **Grams first.** Volume shows up only as helper text, in parentheses.
 - **Quantities inline.** Steps say "whisk 200g bread flour and 30g rye flour," never "whisk the flours."
 - **°F first, °C helper.** `425°F (220°C)`.
 - **Real gear.** "Make this in the 3qt All-Clad saucier."
@@ -88,7 +88,7 @@ Can't decide in two seconds? It's `chop:`. The full guide is in [.claude/rules/k
     ├── rules/         units.md · kitchen-tickets.md · photos.md (always on) · recipe-format.md (recipes)
     ├── skills/        kitchen · gear · menu · recipe · cook · debrief · learn · season
     ├── agents/        kitchen-scout (parallel web research)
-    └── settings.json  pre-approved: web research + local git (push & PRs always ask)
+    └── settings.json  pre-approved tools (push & PRs always ask)
 ```
 
 ## Tuning it
@@ -101,6 +101,6 @@ These are one home cook's notes, not professional advice. Some recipes deliberat
 
 ## License
 
-- **The setup is [MIT](LICENSE).** That covers `.claude/` (skills, rules, agent, settings), `CLAUDE.md`, and `PATINA.md`. Borrow the workflow for your own kitchen, or for anything else.
-- **The content is [CC BY 4.0](LICENSE-CONTENT.md).** That covers recipes, journal entries, techniques, research, kitchen notes, and photos. Share and adapt them; just credit *vibe-cooking by Brian Staruk*.
+- **The setup is [MIT](LICENSE).** Borrow the workflow for your own kitchen, or for anything else.
+- **The content is [CC BY 4.0](LICENSE-CONTENT.md).** Share and adapt it with credit. [LICENSE-CONTENT.md](LICENSE-CONTENT.md) spells out which files are setup and which are content, and how to credit them.
 - **Adapted recipes credit their sources,** and those original works remain their authors'.

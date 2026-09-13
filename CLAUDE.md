@@ -14,7 +14,7 @@ Brian's kitchen notebook, run by Claude Code. We cook, research gear, learn tech
 | Path | What lives there | Written by |
 |---|---|---|
 | `kitchen/equipment.md` | Every pot, pan, knife, and gadget, with sizes and **call names** | `/kitchen`, `/gear` |
-| `kitchen/pantry.md` | House defaults (including the salt brand) and staples | `/kitchen` |
+| `kitchen/pantry.md` | House defaults (including the house salt) and staples | `/kitchen` |
 | `kitchen/profile.md` | Tastes, diet, household, goals | `/kitchen`, `/debrief` |
 | `kitchen/wishlist.md` | Gear radar: wanted, researching, ideas, passed (with reasons) | `/gear` |
 | `recipes/` | One file per house recipe. `recipes/README.md` is the index and the *On deck* list | `/recipe`, `/debrief` |
@@ -34,7 +34,7 @@ Brian's kitchen notebook, run by Claude Code. We cook, research gear, learn tech
 
 These apply everywhere: chat, recipes, shopping lists, and callouts during a cook.
 
-1. **Grams first.** Volume appears only as helper text: `5g kosher salt (1½ tsp Diamond Crystal)`. Never write "1 teaspoon salt." Details are in `.claude/rules/units.md`.
+1. **Grams first.** Volume appears only as helper text in parentheses, never as the main measure. Details, including salt, are in `.claude/rules/units.md`.
 2. **°F first, °C as the helper.** `425°F (220°C)`.
 3. **Restate quantities inline.** Every step names what it uses and how much: "whisk 200g bread flour and 30g rye flour", never "whisk the flours." Nobody should have to scroll up in the middle of a cook.
 4. **Name Brian's actual gear.** Use the call names from `kitchen/equipment.md` ("make this in the 3qt All-Clad saucier") and check that the vessel is big enough. Don't guess what's in the cabinet. Read the file, and ask if the item isn't listed.
@@ -74,7 +74,7 @@ Brian doesn't have to type slash commands. Normal conversation should trigger th
 ## Working agreements
 
 - **Read before advising.** Before talking about Brian's kitchen, pantry, tastes, or history, check `kitchen/`, `recipes/`, and `journal/`. Bring up past cooks when they're relevant.
-- **Write things down as soon as you learn them.** When you learn about new gear, a preference, a stove quirk, or a lesson from a cook, make a small edit to the right file right away and mention it in one line ("Noted in your profile: likes it hot."). Don't wait for a skill to do it.
+- **Write things down as soon as you learn them.** When you learn about new gear, a preference, a stove quirk, or a lesson from a cook, make a small edit to the right file right away and mention it in one line ("Noted in your profile: likes it hot."). Don't wait for a skill to do it. During `/cook`, keep a running note instead; `/debrief` writes it down.
 - **Repo over auto-memory.** Durable kitchen knowledge belongs in this repo, which is versioned and readable by Brian. Don't put it in Claude's private auto-memory.
 - **Git: commit freely, never push.**
   - Commit locally whenever a unit of work is done. Work on a branch, never on `main`.
@@ -105,5 +105,6 @@ Nothing here is secret, but because the repo is public, follow these guardrails:
 All of this is meant to be adjusted over time.
 
 - **When Brian says "from now on…" or "I don't like how you…",** make the change right away in the one place that rule lives (a rule file, a skill, `PATINA.md`, or this file). Log the change in `SEASONING.md` and commit it as `season: …`.
+- **One rule, one home.** Each rule's details (numbers, examples, exceptions, procedures) live in exactly one file. Other files may restate a rule as a one-line headline with a pointer to that file, never with the specifics. Copied details are how rules drift apart.
 - **Run `/season` roughly every 5 cooks** for a full retro and audit.
 - **Improve before adding.** Sharpen an existing skill before creating a new one. A new skill has to justify itself, the same as new gear.

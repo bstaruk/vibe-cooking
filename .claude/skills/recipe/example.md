@@ -21,7 +21,7 @@ cooks: 0
 
 **Serves** 8 · **Active** 15 min · **Total** 50 min · **Status** raw · v1
 
-<!-- FORMAT DEMONSTRATION: this file shows the house recipe format. The equipment call names are placeholders, and we haven't cooked this recipe. Match its structure, not its gear. -->
+<!-- FORMAT DEMONSTRATION: this file shows the house recipe format. The equipment call names are placeholders, and we haven't cooked this recipe. Match its structure, not its gear. Salt is in grams only until the house salt's teaspoon weight is recorded in kitchen/pantry.md. -->
 
 ## Why this works
 
@@ -44,7 +44,7 @@ cooks: 0
 - **12g** granulated sugar (1 tbsp)
 - **4g** baking powder (1 tsp)
 - **3g** baking soda (½ tsp)
-- **5g** kosher salt (1¾ tsp Diamond Crystal · 1 tsp Morton)
+- **5g** coarse sea salt
 
 **Wet**
 - **340g** buttermilk (~1½ cups)
@@ -55,11 +55,11 @@ cooks: 0
 
 ### Heat the iron (start here)
 
-1. **Preheat.** Set the empty 10" Lodge skillet on the middle rack and heat the oven to **425°F (220°C)**. Leave the skillet in for **15 min after the oven reaches temperature**, because iron heats more slowly than the air. An IR thermometer should read **400–425°F (205–220°C)** on the cooking surface.
+1. **Preheat.** Set the empty 10" Lodge skillet on the middle rack and heat the oven to **425°F (220°C)**. Leave the skillet in for **15 min after the oven reaches temperature**, because iron heats more slowly than the air. An IR thermometer should read **400–425°F (204–218°C)** on the cooking surface.
 
 ### Mix (while the skillet heats)
 
-2. **Whisk the dry.** In the large mixing bowl, whisk 210g yellow cornmeal, 60g all-purpose flour, 12g granulated sugar, 4g baking powder, 3g baking soda, and 5g kosher salt for about **30 sec**, until evenly combined.
+2. **Whisk the dry.** In the large mixing bowl, whisk 210g yellow cornmeal, 60g all-purpose flour, 12g granulated sugar, 4g baking powder, 3g baking soda, and 5g coarse sea salt for about **30 sec**, until evenly combined.
 3. **Whisk the wet.** In the medium mixing bowl, whisk 340g buttermilk and 100g beaten egg until smooth. Drizzle in 55g melted butter while whisking. Small flecks of re-solidified butter are fine.
 4. **Combine.** Pour the wet mixture into the dry and fold with a spatula for about **15 strokes**, just until no dry streaks remain. The batter should be thick but pourable, and lumps are fine. Stop there, because overmixing makes it tough.
 
@@ -73,7 +73,7 @@ cooks: 0
 
 - **Room temperature:** wrapped, up to 2 days.
 - **Freezer:** individually wrapped wedges, up to 3 months.
-- **Reheat:** **5 min** directly on the rack at **350°F (175°C)**, or in a dry skillet over medium-low until the crust crisps again.
+- **Reheat:** directly on the rack at **350°F (175°C)** for **5 min**, until warmed through and the crust crisps again. Or use a dry skillet over medium-low, until the crust crisps again.
 
 ## Riffs
 

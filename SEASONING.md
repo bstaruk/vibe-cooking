@@ -2,6 +2,18 @@
 
 Every change to how we work (rules, formats, skills, persona) gets an entry here, newest first. Git holds the diffs. This file holds the reasons. Written by `/season`.
 
+## 2026-09-13: One rule, one home
+
+- **Why:** the first audit found that rules copied across files had already drifted apart: two different teaspoon helpers for the same 5g of salt, two rounding rules for small amounts, and two opposite rankings for gear evidence. Copies drift; pointers don't.
+- **The principle** (`CLAUDE.md` → *Evolving the system*): each rule's details live in exactly one file. Other files can restate a rule as a one-line headline with a pointer.
+- **Salt** (`units.md`, `pantry.md`): the house salt is coarse sea salt. Its crystals vary too much by brand and grind for a generic teaspoon conversion, so salt helpers wait until we weigh a teaspoon. Reference weights for other brands now live only in `units.md`, for converting source recipes.
+- **Gear evidence** (`SOURCES.md`): one table matches each kind of question to its best source (specs for dimensions, testing for performance, owner patterns for durability, retailers for price). `/gear` and `kitchen-scout` point to it.
+- **Pointers instead of copies:** `/cook` rounding, `/recipe` lint, time cues in `recipe-format.md`, and the README's license and settings notes.
+- **Time cues** (`units.md`): rests, holds, and storage times no longer need a cue. Cooking, proofing, and chilling times still do.
+- **Mid-cook notes** (`CLAUDE.md`): "write things down right away" now defers to `/cook`, which keeps a running note for `/debrief`.
+- **Example recipe:** now passes its own checklist (exact surface-temp conversion, a reheat cue, house salt).
+- **Audit:** `/season` now looks for rule details outside their home.
+
 ## 2026-09-13: Kitchen tickets & ground rules
 
 - **Branches & PRs:** all work happens on a branch and reaches `main` through a pull request that Brian merges. Branch protection enforces this.

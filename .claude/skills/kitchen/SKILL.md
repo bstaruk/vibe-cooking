@@ -38,7 +38,7 @@ Treat it as a conversation, not a form. Go one category at a time, ask 3–6 que
    9. **Measuring:** scales (resolution: 1g vs 0.1g), thermometers (instant-read, leave-in probe, IR, oven), timers.
    10. **Countertop appliances:** stand mixer, food processor, blender, sous vide, pressure cooker, rice cooker, and so on.
    11. **Outdoor:** grill, smoker, pizza oven, griddle.
-   12. **Pantry defaults:** house salt brand (it changes every volume helper), flours, butter, fats.
+   12. **Pantry defaults:** house salt (brand, grind, and a level teaspoon weighed three times and averaged; it sets every salt helper), flours, butter, fats.
    13. **Profile:** who Brian cooks for and how often, diet, allergies, hard dislikes, favorite cuisines, dishes to master, weeknight time budget, spice tolerance, where Brian shops, and region/climate for seasonality (a general region is enough, since this repo is public).
 4. **Write as you go.** Update the file after each category so nothing is lost if the session drops.
 5. **Close the tour** with 2–3 observations in Patina's voice: strengths ("You've got thermal mass for days."), underused gear, or gaps. **Don't pitch purchases here.** If there's a real gap, add it to *Ideas* in `kitchen/wishlist.md` and leave it at that.

@@ -77,8 +77,7 @@ Leave out an optional section if there's nothing to put in it. Never change the 
 Format: `- **amount** ingredient (helper), prep`
 
 - `- **225g** yellow onion (1 medium), ½" (1cm) dice`
-- `- **5g** kosher salt (1½ tsp Diamond Crystal)`
-- **Divided ingredients:** give the total, then the split in the order the steps use it: `- **70g** unsalted butter (5 tbsp), divided: 15g for the skillet · 55g melted for the batter`
+- **Divided ingredients:** give the total, then the split in the order the steps use it: `- **70g** unsalted butter (5 tbsp), divided: 55g melted for the batter · 15g for the skillet`
 - **Optional ingredients:** add `(optional)` at the end, after the helper.
 - **Order:** within each group, list ingredients in the order they're used.
 
@@ -88,7 +87,7 @@ Format: `- **amount** ingredient (helper), prep`
 - **Steps** are numbered and start with a bold action label: `3. **Whisk the wet.** …`
 - **Always put quantities inline.** Every ingredient in a step appears with the amount used in that step: "Whisk 340g buttermilk and 100g beaten egg". Never write "whisk the wet ingredients" or "add the remaining butter" without the grams.
 - **Name the vessel** by its call name the first time it appears in each phase ("the 10" Lodge skillet"). After that, "the skillet" is fine.
-- **Bold times and temperatures.** Every time needs a cue: `Bake **20–25 min**, until the top is deep golden and the center reads **200°F (93°C)**.`
+- **Bold times and temperatures,** and give times the cues `units.md` requires: `Bake **20–25 min**, until the top is deep golden and the center reads **200°F (93°C)**.`
 - **Parallel work and preheats** go in the step where they need to start: "Start the oven now: **425°F (220°C)**."
 - **Safety notes** go inline in the step where they matter: hot handles, splatter, and below-USDA temperatures along with the pasteurization numbers.
 
@@ -100,7 +99,7 @@ Run this every time a recipe is created or edited. `/season` also runs it across
 - [ ] Every ingredient in the list appears in the method with its amount, and the portions of each divided ingredient add up to its total.
 - [ ] The method doesn't use anything that's missing from the ingredient list.
 - [ ] Every temperature is written `°F (°C)`.
-- [ ] Every time has a cue.
+- [ ] Times have cues wherever `units.md` requires them.
 - [ ] Every call name exists in `kitchen/equipment.md` (or is marked not owned), and each vessel is big enough.
 - [ ] The frontmatter is complete, and the header line matches it (serves, times, status, version).
 - [ ] The recipe's row in `recipes/README.md` is up to date.

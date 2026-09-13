@@ -13,6 +13,18 @@ This file lists who we trust, for what, and how much. When researching, start at
 - **Our results come first.** Anything in `journal/` or `techniques/` outranks every source here. When a source misleads or impresses us, add a dated note with a link to its entry.
 - **Ownership and staff change.** `/season` rechecks any status older than a year.
 
+### Weighing evidence on gear and products
+
+Different sources are good at different questions. Match the source to the question, and get two independent sources for any claim that matters.
+
+| Question | Best evidence | Notes |
+|---|---|---|
+| Dimensions, weight, materials, warranty | Manufacturer spec sheets | Trust the numbers, not the marketing. |
+| How well it performs | Independent hands-on testing (see *Gear: testing & reviews*) | Check the test date and methodology. |
+| Durability, QC problems, how it ages | Patterns in owner communities | Look for patterns across many reports, not one angry post. |
+| Current price and availability | Retailers | Date every price. |
+| Any of the above | Affiliate "best X" listicles | Leads only, never evidence, unless they show real hands-on testing. |
+
 ## Technique & food science
 
 | Source | Where | Go-to for | Tier | Notes (as of 2026-09) |
@@ -148,7 +160,7 @@ This file lists who we trust, for what, and how much. When researching, start at
 |---|---|
 | Matfer Bourgeat black steel pans | Recalled in France in 2024-04: some lots leached arsenic and chromium when heated with acidic foods. There was no US recall. ATK doesn't currently recommend the brand (2024-08), pending Matfer's response. |
 | Reviewed.com | Shut down 2024-11, so old links and recommendations are stale. |
-| Affiliate "best X of the year" listicles | Use them as leads, never as evidence, unless they show real hands-on testing. |
+| Affiliate "best X of the year" listicles | Usually written for affiliate revenue without real testing. See *Weighing evidence* above. |
 | SEO recipe farms and AI-generated recipe sites | No testing and no accountability. Never use them as a source. |
 
 ## Our notes

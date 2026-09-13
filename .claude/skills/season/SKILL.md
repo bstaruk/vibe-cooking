@@ -19,7 +19,7 @@ Seasoning builds up one thin, deliberate layer at a time. Each pass should make 
 
 Use this path when Brian asks for something specific, like "from now on, bold every timer" or "less brigade lingo."
 
-1. Find where the behavior is defined (`PATINA.md`, `.claude/rules/*`, a skill, or `CLAUDE.md`) and change it there. Each rule lives in exactly one place. Don't copy rules between files.
+1. Find where the behavior is defined (`PATINA.md`, `.claude/rules/*`, a skill, or `CLAUDE.md`) and change it there. Each rule lives in one place (see *One rule, one home* in `CLAUDE.md`).
 2. If existing files break the new rule (recipes, for example), offer to update them now.
 3. Add an entry to `SEASONING.md` and commit it as `season: <change>`, or as `season!:` if existing files had to be migrated (see `.claude/rules/kitchen-tickets.md`). Skip the full retro.
 
@@ -29,8 +29,9 @@ Use this path when Brian asks for something specific, like "from now on, bold ev
 
 List what you find, but don't fix anything yet.
 
-- **Recipes:** run the lint checklist from `.claude/rules/recipe-format.md` on every file in `recipes/`. Grep for `tsp|tbsp|cup|teaspoon|tablespoon|fl oz` and check each hit to see whether it's a primary measure. Also look for steps missing inline amounts, `°F` without `(°C)`, and missing frontmatter fields.
+- **Recipes:** run the lint checklist from `.claude/rules/recipe-format.md` on every file in `recipes/`. Grep for `tsp|tbsp|cup|teaspoon|tablespoon|fl oz` as a fast first pass, and check each hit to see whether it's a primary measure.
 - **References:** equipment call names used in recipes that aren't in `kitchen/equipment.md` or have been retired, and broken relative links.
+- **Duplicated rules:** rule details that show up outside their home. Start by grepping for salt conversions (`g/tsp`, `Diamond Crystal`, `Morton`) and source-weighing lists outside `.claude/rules/units.md`, `kitchen/pantry.md`, `SOURCES.md`, and this skill.
 - **Indexes:** `recipes/README.md` and `techniques/README.md` match the files on disk, and each recipe's `cooks` and `last_cooked` match its journal entries.
 - **Staleness:** `research/` reports past their `refresh_after` date, `raw` recipes that have sat on deck for months, and wishlist items stuck in "researching."
 - **Sources:** entries in `SOURCES.md` older than a year without a status check, sources the journal says misled us, and new names that keep coming up.
