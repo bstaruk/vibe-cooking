@@ -13,7 +13,7 @@ These determine our conversions. Every volume helper depends on them.
 | All-purpose flour | King Arthur or Wegmans | Protein content changes hydration and chew. The two brands can differ, so note which bag a bake used. |
 | Bread flour | King Arthur or Wegmans | |
 | 00 flour | King Arthur or Wegmans | |
-| Wheat flour | King Arthur or Wegmans | |
+| Whole wheat flour | Wegmans | |
 | Rye flour | Usually Bob's Red Mill | |
 | Rice flour | Any brand | |
 | Butter | _?_ | Salted or unsalted. European-style butter has more fat. |
@@ -24,8 +24,9 @@ These determine our conversions. Every volume helper depends on them.
 
 _Staples that stay off shopping lists._
 
-- All-purpose, bread, 00, wheat, rye, and rice flours (see *House defaults*)
+- All-purpose, bread, 00, whole wheat, rye, and rice flours (see *House defaults*)
 - Wegmans whole San Marzano tomatoes, DOP-certified: usually ~5 cans. The base for house tomato and pizza sauce.
+- Secret Aardvark hot sauce (added to Brian's plate after cooking, not to shared dishes)
 
 ## Specialty stash
 
