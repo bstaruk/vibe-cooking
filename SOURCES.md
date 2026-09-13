@@ -2,7 +2,7 @@
 
 This file lists who we trust, for what, and how much. When researching, start at the top of the ranking and work down.
 
-**Last full status check: 2026-09-13.** On that date, fresh web research checked each source for activity, ownership, and platform. Entries marked *unverified* couldn't be confirmed then.
+**Last full status check: 2026-09-13.** On that date, fresh web research checked each source for activity, ownership, and platform. Entries marked *unverified* couldn't be confirmed then. A second pass the same day spot-checked 20 dated claims and corrected four.
 
 ## How to use this
 
@@ -26,7 +26,7 @@ This file lists who we trust, for what, and how much. When researching, start at
 | Nik Sharma | niksharmacooks.com | Flavor science, from a former molecular biologist | 1 | Wrote *The Flavor Equation* (2020). *Fundamentals of Flavor* comes out 2026-09-22. |
 | AmazingRibs (Meathead) | amazingribs.com | Science-based barbecue; grill and thermometer testing | 1 | Pitmaster Club membership is paid. |
 | ChefSteps | chefsteps.com | Sous vide, modernist technique | 2 | Owned by Breville. Studio Pass is paid. |
-| Ethan Chlebowski | YouTube · cookwell.com | The why behind weeknight cooking | 2 | Launched Cook Well, a recipe site and app. |
+| Ethan Chlebowski | YouTube · cookwell.com | The why behind weeknight cooking | 2 | Launched Cook Well (cookwell.com), a cooking app and site. |
 | Milk Street | 177milkstreet.com | Global recipes, well tested | 2 | Partial paywall. |
 | Adam Ragusea | YouTube @aragusea | Food-science myths, food history | 3 | More journalism than lab work; measurements are casual. |
 | Samin Nosrat | *Salt Fat Acid Heat* · *Good Things* (2025) | Building intuition | 3 | Mostly volume measurements. Treat as a framework rather than a source of numbers. |
@@ -52,14 +52,14 @@ This file lists who we trust, for what, and how much. When researching, start at
 | Brian Lagerstrom | YouTube · brianlagerstrom.com | Professional-level baking and cooking, in grams | 2 | Weekly videos. |
 | Claire Saffitz | YouTube · *Dessert Person* | Baking by weight | 2 | Her next book is a general cookbook. |
 | Weekend Bakery | weekendbakery.com | Metric European home bread | 2 | Active. |
-| Bryan Ford | artisanbryan.com | Latin American breads | 2 | Runs Pan y Café in Santa Ana, CA. |
+| Bryan Ford | artisanbryan.com | Latin American breads | 2 | Brooklyn-based. His Pan y Café bakery project is in the works; *unverified* whether it's open. |
 
 ## Cuisines
 
 | Source | Where | Go-to for | Tier | Notes (as of 2026-09) |
 |---|---|---|---|---|
 | Chinese Cooking Demystified | YouTube · Patreon | Regional Chinese technique | 1 | *Unverified:* no 2026 upload was confirmed. |
-| Fuchsia Dunlop | fuchsiadunlop.com · books | Sichuan and Chinese cooking and food history | 1 | *Five Tastes* came out 2026-09. |
+| Fuchsia Dunlop | fuchsiadunlop.com · books | Sichuan and Chinese cooking and food history | 1 | *Five Tastes* came out in the UK 2026-09-03; the US edition follows 2026-10-20. |
 | Pailin Chongchitnant | Pailin's Kitchen (YouTube) · hot-thai-kitchen.com | Thai, from someone with a food-science background | 1 | *Hot Thai Kitchen* 10th-anniversary edition came out 2026. |
 | Andrea Nguyen | vietworldkitchen.com | Vietnamese and other Asian cooking | 1 | Co-wrote *Cooking Thai* with Pim Techamuanvivit (2026-08). |
 | Maangchi | maangchi.com | Korean home cooking | 1 | Active. |
@@ -117,11 +117,11 @@ This file lists who we trust, for what, and how much. When researching, start at
 
 | Maker | Known for | Status & notes |
 |---|---|---|
-| ThermoWorks | The gold standard for thermometers | The **Thermapen NANO replaced the ONE** (2026-08). The Gravitas scale has 0.1g resolution (2026-05). |
-| Combustion Inc. | Predictive probe with 8 sensors (Chris Young) | No subscription. Makes the Gen 2 probe and the Combustion Engine (2026). |
+| ThermoWorks | The gold standard for thermometers | The **Thermapen NANO replaces the ONE** (announced 2026-08-20; preorder, shipping expected 2026-10). The Gravitas scale (2026-05) reads to 0.1g but is rated accurate to ±0.7g. |
+| Combustion Inc. | Predictive probe with 8 sensors (Chris Young) | No subscription. Makes the Gen 2 predictive probe. The Combustion Engine, a wireless draft-control fan for grills, was announced for summer 2026; *unverified* whether it has shipped. |
 | Meater | Wireless probes | Owned by Traeger. |
-| Anova | Sous vide, Precision Oven | Owned by Electrolux. **App subscription required for accounts created after 2024-08.** |
-| Breville Joule / ChefSteps | Sous vide | The **old Joule app shut down in 2026-03**; it now requires the Breville+ app. |
+| Anova | Sous vide, Precision Oven | Owned by Electrolux. **App subscription required for accounts created on or after 2024-08-21.** |
+| Breville Joule Sous Vide / ChefSteps | Sous vide | The **old Joule app stopped working with the Joule Sous Vide in 2026-03**; it now requires the Breville+ Cooking app. Some owners report trouble after the firmware update. Not to be confused with the Breville Joule Oven. |
 | Breville Control Freak | Induction burner with probe temperature control | Home and commercial models. Some backorders reported. |
 | Typhur | Wireless probes, air fryer | Active. |
 | Ooni | Home pizza ovens | Downsized, with layoffs in 2025. Not acquired. |
@@ -140,13 +140,13 @@ This file lists who we trust, for what, and how much. When researching, start at
 - *Cooking for Geeks* (Potter, 2nd ed. 2015)
 - *Essentials of Classic Italian Cooking* (Hazan)
 - *The Flavor Bible* (Page & Dornenburg) and *The Flavor Matrix* (Briscione): *not rechecked*
-- **Coming soon:** *Five Tastes* (Dunlop, 2026-09) · *Fundamentals of Flavor* (Sharma, 2026-09-22) · *The Perfect Pizza* (Leo, 2026-11-10) · *Breaducation* (Janjigian, 2026-11-17)
+- **Coming soon:** *Five Tastes* (Dunlop, US edition 2026-10-20) · *Fundamentals of Flavor* (Sharma, 2026-09-22) · *The Perfect Pizza* (Leo, 2026-11-10) · *Breaducation* (Janjigian, 2026-11-17)
 
 ## Caution
 
 | What | Why |
 |---|---|
-| Matfer Bourgeat black steel pans | Recalled in France in 2024-04: some lots leached arsenic and chromium when heated with acidic foods. There was no US recall, but ATK stopped recommending the brand. |
+| Matfer Bourgeat black steel pans | Recalled in France in 2024-04: some lots leached arsenic and chromium when heated with acidic foods. There was no US recall. ATK doesn't currently recommend the brand (2024-08), pending Matfer's response. |
 | Reviewed.com | Shut down 2024-11, so old links and recommendations are stale. |
 | Affiliate "best X of the year" listicles | Use them as leads, never as evidence, unless they show real hands-on testing. |
 | SEO recipe farms and AI-generated recipe sites | No testing and no accountability. Never use them as a source. |
