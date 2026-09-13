@@ -21,7 +21,7 @@ cooks: 0
 
 **Serves** 8 · **Active** 15 min · **Total** 50 min · **Status** raw · v1
 
-<!-- FORMAT DEMONSTRATION: this file shows the house recipe format. The equipment call names are placeholders, and we haven't cooked this recipe. Match its structure, not its gear. Salt is in grams only until the house salt's teaspoon weight is recorded in kitchen/pantry.md. -->
+<!-- FORMAT DEMONSTRATION: this file shows the house recipe format. The equipment call names are placeholders, and we haven't cooked this recipe. Match its structure, not its gear. -->
 
 ## Why this works
 
@@ -44,7 +44,7 @@ cooks: 0
 - **12g** granulated sugar (1 tbsp)
 - **4g** baking powder (1 tsp)
 - **3g** baking soda (½ tsp)
-- **5g** coarse sea salt
+- **5g** coarse sea salt (~¾ tsp)
 
 **Wet**
 - **340g** buttermilk (~1½ cups)
