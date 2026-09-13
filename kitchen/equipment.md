@@ -8,7 +8,7 @@ Everything in Brian's kitchen that recipes and cook-alongs can use.
 - **Maintained by** `/kitchen` and `/gear`. Specs are checked against the manufacturer's listing whenever the model is known.
 - **`?`** marks something Brian still needs to confirm or measure. *Unverified* marks a spec that sources couldn't confirm.
 
-_Last updated: 2026-09-13 (kitchen tour in progress; specs checked 2026-09-13)_
+_Last updated: 2026-09-13 (kitchen tour; specs checked 2026-09-13)_
 
 ## Range & oven
 
@@ -50,7 +50,7 @@ Everything here is induction-compatible. All-Clad D3 is oven and broiler safe to
 | `0.5qt All-Clad butter warmer` | All-Clad D3 butter warmer (42006) | 0.5qt (0.47L) · ~4.9" across (overall width; rim diameter *unverified*) | D3 tri-ply, aluminum core | Pour lip(s); no lid; hand wash. |
 | `2qt Made In saucier` | Made In Stainless Clad saucier, 2qt (made in Italy) | 2qt (1.9L) · 8.2" (21cm) top · 5" base · 2.8 lb | 5-ply: 18/10 stainless, aluminum, aluminum alloy, 430 stainless | Listing gives height as 5.1", taller than the 3qt; possibly with the lid (*unverified*). |
 | `3qt Made In saucier` | Made In Stainless Clad saucier, 3qt (made in Italy) | 3qt (2.8L) · 10" (25cm) top · 7" base · 4.5" tall · 3.7 lb | 5-ply, as above | Made In now also makes this size in the USA; Brian's is the Italian version. |
-| `6qt All-Clad` _(type ?)_ | All-Clad 6qt "Everyday" pan, model _?_ | 6qt (5.7L) | D3 (per Brian) | All-Clad sells no "Everyday Pan." D3 6qt candidates: Mother of All Pans (DC44063), sauté, deep sauté. D5 and Copper Core sell a 6qt Essential Pan. |
+| `6qt All-Clad stockpot` | All-Clad D3 Everyday stockpot, 6qt (DC4506) | 6qt (5.7L) · ~11" (28cm) across · 5.6" tall · 14.4" wide across the handles · 5.05 lb | D3 tri-ply | Two loop handles, lid. Squat for a stockpot: wide enough for braises and big sauce batches. Top diameter is from the classic D3 4506 (same body); All-Clad lists only overall size. |
 
 ## Prep & mixing
 
@@ -63,8 +63,12 @@ Everything here is induction-compatible. All-Clad D3 is oven and broiler safe to
 
 ## Enameled cast iron
 
+Le Creuset guidance: low to medium heat for everything, including searing; heat gradually and never preheat on high or boost; get fat or liquid into the pan before it heats, and never let it boil dry; no cold water into a hot pan; lift pans on and off the glass rather than dragging them. **Knob limits:** classic black phenolic knob (with logo) ~390°F (199°C); Signature black knob (no logo) 480°F (249°C); current composite and stainless knobs 500°F (260°C). Cast iron handles have no limit.
+
 | Call name | Maker / model | Capacity | Notes |
 |---|---|---|---|
+| `3.5qt Le Creuset braiser` | Le Creuset Signature Braiser, 30cm, White (bought ~2016) | 3.5qt (3.3L) · 12" (30cm) across · 2.5" deep · ~12 lb with lid | Sand interior, two loop handles, domed lid marked 30. Crate & Barrel sells this as the "Everyday Pan." Knob type _?_ (check the limit above before high-heat oven use). |
+| `4.25qt Le Creuset deep sauté pan` | Le Creuset Signature Deep Sauté Pan, White (bought ~2016) | 4.25qt (4.0L) · 12" (30cm) across · 5.5" tall · ~13 lb | Long handle plus a helper handle. Lid _?_ (sold with one; its knob is rated 480°F (249°C)). |
 
 ## Nonstick
 
