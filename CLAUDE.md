@@ -74,16 +74,32 @@ Brian doesn't have to type slash commands. Normal conversation should trigger th
 - **Read before advising.** Before talking about Brian's kitchen, pantry, tastes, or history, check `kitchen/`, `recipes/`, and `journal/`. Bring up past cooks when they're relevant.
 - **Write things down as soon as you learn them.** When you learn about new gear, a preference, a stove quirk, or a lesson from a cook, make a small edit to the right file right away and mention it in one line ("Noted in your profile: likes it hot."). Don't wait for a skill to do it.
 - **Repo over auto-memory.** Durable kitchen knowledge belongs in this repo, which is versioned and readable by Brian. Don't put it in Claude's private auto-memory.
-- **Git: branch, ticket, PR.** Nothing gets committed straight to `main`. Each unit of work (a recipe written, a cook logged, a research report, an inventory change, a rules change) goes on its own branch. Commit it with a culinary "kitchen ticket" message such as `taste(journal): cast iron cornbread, cook #2, 4/5`, then push it and open a pull request. **Brian merges.** The full convention (types, scopes, branch names, PRs) is in `.claude/rules/kitchen-tickets.md`, which is always loaded. Never touch git in the middle of a cook.
+- **Git: commit freely, never push.**
+  - Commit locally whenever a unit of work is done. Work on a branch, never on `main`.
+  - Use a kitchen ticket message (`feast:` · `season:` · `chop:`), as described in `.claude/rules/kitchen-tickets.md`.
+  - **Never push to origin, and never open, edit, comment on, or merge a pull request, unless Brian explicitly asks for it at that moment.** Don't suggest it, offer it, or remind Brian about it either. Brian will ask when ready.
+  - Never touch git in the middle of a cook.
 - **Keep files clean.** The persona lives in conversation. Files are neutral, scannable GitHub-flavored markdown with relative links and ISO dates.
 - **Use photos.** Brian may paste photos of a cookware shelf, a cookbook page, a crumb shot, or a scorched pan. Look at them closely. Don't commit images unless asked.
-- **This repo is public.** Keep personal details general: a region rather than an address, "cooks for 2" rather than names, and no health information unless Brian explicitly wants it recorded.
-- **Respect copyright.** When importing from a cookbook or website, credit the source and write the method in our own words.
+
+## Public by design
+
+This repo is public on purpose. It's Brian's personal home kitchen, shared to show how Brian works with AI outside of writing code, and hopefully to inspire someone to try it. Write every file, commit message, and `SEASONING.md` entry with a curious outside reader in mind.
+
+Nothing here is secret, but because the repo is public, follow these guardrails:
+
+- **Never commit secrets.** That means API keys, tokens, passwords, account or order numbers, and receipts.
+- **Keep location general.** A region or climate is fine. Never include an address or anything that pinpoints the house.
+- **Let Brian decide about other people.** Refer to guests and family by first name or by role ("the in-laws") unless Brian says otherwise. Don't commit photos that show people without an explicit OK.
+- **Strip GPS data from photos.** Phone photos carry location metadata, so remove the EXIF location data before committing any image.
+- **Respect creators.** Credit sources and write methods in our own words. Never paste in paywalled content (ATK, NYT Cooking), and never commit photos of cookbook pages.
+- **Keep links clean.** No affiliate or referral links. Remove tracking parameters (`utm_*`, `ref=`) from URLs.
+- **Check the diff before each commit** for anything on this list.
 
 ## Evolving the system
 
 All of this is meant to be adjusted over time.
 
-- **When Brian says "from now on…" or "I don't like how you…",** make the change right away in the one place that rule lives (a rule file, a skill, `PATINA.md`, or this file). Log it in `SEASONING.md` and ship it as `season(<scope>): …`.
+- **When Brian says "from now on…" or "I don't like how you…",** make the change right away in the one place that rule lives (a rule file, a skill, `PATINA.md`, or this file). Log the change in `SEASONING.md` and commit it as `season: …`.
 - **Run `/season` roughly every 5 cooks** for a full retro and audit.
 - **Improve before adding.** Sharpen an existing skill before creating a new one. A new skill has to justify itself, the same as new gear.

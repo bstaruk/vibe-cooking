@@ -70,5 +70,5 @@ Links to recipes and other techniques.
 ~~~
 
 - Add or update the note's row in the `techniques/README.md` index.
-- Ship it following `.claude/rules/kitchen-tickets.md`: `plate(technique): <topic>` for a new note, or `season(technique): <topic>` when extending an existing one.
+- Commit (see `.claude/rules/kitchen-tickets.md`): `feast: <topic>` for a new note, or `season: <topic>` when adding to an existing note.
 - If there's an experiment, offer to schedule it: add it to *On deck* in `recipes/README.md`, or plan it with `/menu`.
