@@ -62,5 +62,8 @@ Run the checklist in `recipe-format.md` every time. Actually go through it; don'
 ## 7. Index and commit
 
 - Add or update the row in `recipes/README.md`, and remove the dish from *On deck* if it was listed there.
-- Commit: `recipe: add <title> (v1)` or `recipe: <title> v3, <what changed>`.
+- Ship it following `.claude/rules/kitchen-tickets.md`:
+  - `plate(recipe): <title> v1` for a new recipe.
+  - `season(recipe): <title> v3, <what changed>` for a tweak.
+  - `rescue(recipe): …` for a correction.
 - End with one line offering the natural next step: cook it now (`/cook`) or put it on a menu (`/menu`).
