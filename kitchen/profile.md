@@ -2,7 +2,7 @@
 
 What Patina knows about how Brian cooks and eats. It gets updated during conversations and by `/patina-debrief`. Dated entries show when we learned something.
 
-_Last updated: 2026-09-13 (kitchen tour in progress)_
+_Last updated: 2026-09-21_
 
 ## Snapshot
 
@@ -43,6 +43,7 @@ _Last updated: 2026-09-13 (kitchen tour in progress)_
 
 - **Egg sandwiches** in the Griswold square egg skillets.
 - **House tomato sauce:** made from scratch with whole DOP San Marzanos, and garden San Marzanos in season. Kept simple: dried Italian herbs (basil, oregano, and so on), salt, and pepper.
+- **The KitchenAid mixer is for big batches only,** like 8 pizza dough balls for the freezer. Single loaves and other small doughs get mixed and kneaded by hand (2026-09-21).
 - **Water to temperature comes from the electric kettle,** never a pot on the cooktop (2026-09-21).
 - **Batch and freeze:** portions, vacuum-seals, and freezes big batches for future dinners.
 
