@@ -8,7 +8,7 @@ Everything in Brian's kitchen that recipes and cook-alongs can use.
 - **Maintained by** `/patina-kitchen` and `/patina-gear`. Specs are checked against the manufacturer's listing whenever the model is known.
 - **`?`** marks something Brian still needs to confirm or measure. *Unverified* marks a spec that sources couldn't confirm.
 
-_Last updated: 2026-09-21 (added bannetons, a loaf pan, and the 1L Bonavita kettle; specs checked 2026-09-21)_
+_Last updated: 2026-09-21 (added bannetons, a loaf pan, the 1L Bonavita kettle, scrapers, and a rolling pin; specs checked 2026-09-21)_
 
 ## Range & oven
 
@@ -59,6 +59,9 @@ Everything here is induction-compatible. All-Clad D3 is oven and broiler safe to
 | `1.5qt All-Clad bowl` | All-Clad stainless mixing bowl set (MBSET) | 1.5qt (1.4L) · 7¼" (18cm) across · 3½" tall | Bowl sizes from one retailer (Sur La Table). |
 | `3qt All-Clad bowl` | same set | 3qt (2.8L) · 9" (23cm) across · 4½" tall | |
 | `5qt All-Clad bowl` | same set | 5qt (4.7L) · 10¼" (26cm) across · 5" tall | |
+| `Bench scraper` | Make and model _?_ | _?_ | Rigid. Dividing dough, cleaning the counter during hand kneading, moving chopped food. |
+| `Bowl scraper` | Make and model _?_ | _?_ | Flexible. Scraping dough out of bowls and folding wet doughs in the bowl. |
+| `French rolling pin` | Make, wood, and model _?_ | ~18" (46cm) long, Brian's estimate (measure); tapered or straight _?_ | Handleless French-style pin. |
 | `All-Clad food mill` | All-Clad stainless food mill (likely 59919) | ~1.7L (7 cups) · fits over pots and bowls 8–12" (20–30cm) across | Discs: coarse 5mm, medium 3mm, fine 2mm (from retailer summaries). 18/10 stainless; dishwasher safe. |
 
 ## Enameled cast iron
