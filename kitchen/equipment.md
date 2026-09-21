@@ -8,7 +8,7 @@ Everything in Brian's kitchen that recipes and cook-alongs can use.
 - **Maintained by** `/patina-kitchen` and `/patina-gear`. Specs are checked against the manufacturer's listing whenever the model is known.
 - **`?`** marks something Brian still needs to confirm or measure. *Unverified* marks a spec that sources couldn't confirm.
 
-_Last updated: 2026-09-21 (added bannetons and a loaf pan; specs checked 2026-09-21)_
+_Last updated: 2026-09-21 (added bannetons, a loaf pan, and the 1L Bonavita kettle; specs checked 2026-09-21)_
 
 ## Range & oven
 
@@ -115,6 +115,7 @@ Le Creuset guidance: low to medium heat for everything, including searing; heat 
 
 | Call name | Maker / model | Capacity / specs | Notes |
 |---|---|---|---|
+| `1L Bonavita kettle` | Bonavita 1.0L Digital Variable Temperature Gooseneck Kettle, BV382510V | 1.0L · 1,000W (Bonavita; one retailer title says 1,200W) · settable **140–212°F (60–100°C) in 1°F steps**, plus preset buttons · holds temperature up to 60 min · display shows the actual water temperature | **The only way water gets heated to a target temperature in this kitchen.** Recipes call for the kettle at a set temperature, never a pot on the cooktop. Below 140°F (60°C), heat to 140°F and blend with cold water. Brushed stainless with BPA-free plastic; gooseneck spout. Bonavita's Canadian site lists this model as the old version. Minimum fill *unverified*. |
 | `Instant Pot` | Instant Pot Duo 6qt, IP-DUO60 | 6qt (5.7L) · 1,000W · high pressure 10.2–11.6 psi, 239–244°F (115–118°C) · low pressure 5.8–7.2 psi, 229–233°F (109–112°C) · sauté: Less 275–302°F (135–150°C), Normal 320–349°F (160–176°C), More 347–410°F (175–210°C) | 18/8 stainless inner pot with a 3-ply base. |
 | `Vitamix immersion blender` | Vitamix 5-Speed Immersion Blender, VM0219 | 625W · 5 speeds · bell guard | The bell guard protects pan surfaces. Base unit or Complete Bundle (jar, whisk, mini-chopper, stand) _?_ |
 | `Nesco vacuum sealer` | Nesco Deluxe Vacuum Sealer VS-12 | 130W · dry, moist, and double seal · normal and gentle pressure · pulse vacuum · bag cutter and roll storage | Accessory hose port for canisters and jar lids (sold separately). Let it rest 1 min between seals. |
