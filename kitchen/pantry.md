@@ -1,6 +1,6 @@
 # Pantry
 
-_Last updated: 2026-09-21 (added the house yeast)_
+_Last updated: 2026-09-21 (added the house yeast and half-and-half)_
 
 ## House defaults
 
@@ -17,6 +17,7 @@ These determine our conversions. Every volume helper depends on them.
 | Rye flour | Usually Bob's Red Mill | |
 | Rice flour | Any brand | |
 | Yeast | Fleischmann's active dry, stored in the freezer | Recipes assume active dry, bloomed in warm liquid before mixing. When converting a recipe written for instant yeast, use 1.25× the weight. |
+| Milk / cream | **Half-and-half** (always on hand, for coffee). Milk isn't kept. | Write recipes around half-and-half, thinned with water where a source calls for milk. Milk is a shopping-list item. |
 | Butter | _?_ | Salted or unsalted. European-style butter has more fat. |
 | High-heat fat | _?_ | For searing. |
 | Everyday olive oil | _?_ | |
@@ -27,6 +28,7 @@ _Staples that stay off shopping lists._
 
 - All-purpose, bread, 00, whole wheat, rye, and rice flours (see *House defaults*)
 - Fleischmann's active dry yeast (freezer)
+- Half-and-half
 - Wegmans whole San Marzano tomatoes, DOP-certified: usually ~5 cans. The base for house tomato and pizza sauce.
 - Secret Aardvark hot sauce (added to Brian's plate after cooking, not to shared dishes)
 
