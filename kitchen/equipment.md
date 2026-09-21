@@ -8,7 +8,7 @@ Everything in Brian's kitchen that recipes and cook-alongs can use.
 - **Maintained by** `/patina-kitchen` and `/patina-gear`. Specs are checked against the manufacturer's listing whenever the model is known.
 - **`?`** marks something Brian still needs to confirm or measure. *Unverified* marks a spec that sources couldn't confirm.
 
-_Last updated: 2026-09-13 (kitchen tour; specs checked 2026-09-13)_
+_Last updated: 2026-09-21 (added bannetons and a loaf pan; specs checked 2026-09-21)_
 
 ## Range & oven
 
@@ -85,6 +85,9 @@ Le Creuset guidance: low to medium heat for everything, including searing; heat 
 | `14" pizza screen` (×2) | Aluminum pizza screen, brand unknown | 14" (36cm) | Season with a wipe of oil before use; hand wash with mild, aluminum-safe detergent; store flat. |
 | `12" Sicilian pan` | SWH Enterprises 12" × 12" × 1" Sicilian/Grandma pan | 12" × 12" (30 × 30cm) · 1" (2.5cm) deep · 22-gauge cold-rolled steel, ~0.030" (0.76mm) | Bare steel needs seasoning and rusts if left wet; whether Brian's shipped seasoned _?_. Retail summaries say it's hand-built in Reno, NV, ~34.5 oz (*unverified*). |
 | `10" bar pizza pan` (×2) | Bay State Restaurant Products 10" bar pizza pan (south shore bar pizza) | 10" (25cm) · depth and base diameter _?_ (measure) | Steel, made in USA. No published spec sheet. |
+| `1.5 lb Nordic Ware loaf pan` | Nordic Ware Naturals 1.5 Pound Loaf Pan (45900), bare aluminum | Inside 9.1" × 5.3" × 2.8" (23 × 13.5 × 7cm) · outside ~9.7" × 6" (25 × 15cm) (Target) | Uncoated aluminum with a steel-reinforced rolled rim; made in USA. Fits recipes written for a 9" × 5" pan. Light, shiny metal browns more gently than dark pans. **Hand wash**: the dishwasher discolors it. Nordic Ware recommends nylon, wood, or silicone tools. Oven limit: Target lists 500°F (260°C); Nordic Ware's page gives none. |
+| `Breadtopia oval banneton` | Breadtopia Banneton, Oval (composite, not rattan) | Outside 10½" × 7⅝" × 3½" (27 × 19 × 9cm) · inside rim ~10" × 6½–7" (retailers; Breadtopia's own "inside" figure of 7" × 3¾" is likely the base, *unverified*) · dough 680–1130g | Molded from 30% recycled maple fiber and 70% polypropylene; made in USA. Top-rack dishwasher safe, and it doesn't need to dry out before stacking the way rattan does. Works bare if well floured; a liner is sold separately (whether Brian has one _?_). Proofing only. Shape for batards in the `Challenger bread pan`. |
+| `Breadtopia round banneton` | Breadtopia Banneton, Round (composite, not rattan) | 8" (20cm) across × 3" (8cm) tall, as listed (inside vs. outside not stated) · dough 680–1130g | Same material and care as the oval. Liner _?_. Proofing only. |
 
 ## Knives & boards
 
