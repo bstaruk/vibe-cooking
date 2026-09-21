@@ -8,6 +8,7 @@ House recipes, written in the house format (see `.claude/rules/recipe-format.md`
 
 | Recipe | Status | Rating | Cooks | Last cooked | Tags |
 |---|---|---|---|---|---|
+| [Basic Sandwich Loaf](basic-sandwich-loaf.md) | raw | | 0 | | bread, yeasted, loaf-pan, same-day |
 
 ## On deck
 
