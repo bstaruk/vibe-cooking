@@ -1,6 +1,6 @@
 # Pantry
 
-_Last updated: 2026-09-21 (added the house yeast and half-and-half)_
+_Last updated: 2026-09-21 (added the house yeast, half-and-half, and salted butter)_
 
 ## House defaults
 
@@ -18,7 +18,7 @@ These determine our conversions. Every volume helper depends on them.
 | Rice flour | Any brand | |
 | Yeast | Fleischmann's active dry, stored in the freezer | Recipes assume active dry, bloomed in warm liquid before mixing. When converting a recipe written for instant yeast, use 1.25× the weight. |
 | Milk / cream | **Half-and-half** (always on hand, for coffee). Milk isn't kept. | Write recipes around half-and-half, thinned with water where a source calls for milk. Milk is a shopping-list item. |
-| Butter | _?_ | Salted or unsalted. European-style butter has more fat. |
+| Butter | **Salted, always** (brand _?_). Unsalted isn't kept and won't be. | Salted butter is ~1.6% salt (USDA FoodData Central; brands vary). Recipes call for salted butter and take that salt out of the added salt: ~1g less salt per 60g butter. Apply the same correction when converting a source written for unsalted. European-style butter has more fat. |
 | High-heat fat | _?_ | For searing. |
 | Everyday olive oil | _?_ | |
 
