@@ -43,6 +43,7 @@ _Last updated: 2026-09-13 (kitchen tour in progress)_
 
 - **Egg sandwiches** in the Griswold square egg skillets.
 - **House tomato sauce:** made from scratch with whole DOP San Marzanos, and garden San Marzanos in season. Kept simple: dried Italian herbs (basil, oregano, and so on), salt, and pepper.
+- **Water to temperature comes from the electric kettle,** never a pot on the cooktop (2026-09-21).
 - **Batch and freeze:** portions, vacuum-seals, and freezes big batches for future dinners.
 
 ## Garden
