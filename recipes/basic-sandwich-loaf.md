@@ -1,8 +1,8 @@
 ---
 title: Basic Sandwich Loaf
-status: raw
+status: seasoned
 version: 1
-rating:
+rating: 5
 serves: 8
 yield: one 9" × 5" (23 × 13cm) loaf, ~16 slices
 active: 30 min
@@ -11,15 +11,15 @@ tags: [bread, yeasted, loaf-pan, same-day]
 source: Adapted from King Arthur Baking, Classic Sandwich Bread
 source_url: https://www.kingarthurbaking.com/recipes/classic-sandwich-bread-recipe
 created: 2026-09-21
-last_cooked:
-cooks: 0
+last_cooked: 2026-09-21
+cooks: 1
 ---
 
 # Basic Sandwich Loaf
 
 > A soft, lightly enriched white pan loaf, sized for the 1.5 lb Nordic Ware loaf pan and out of the oven about 3 hours after the flour hits the bowl.
 
-**Serves** 8 · **Active** 30 min · **Total** 4 h · **Status** raw · v1
+**Serves** 8 · **Active** 30 min · **Total** 4 h · **Status** seasoned · v1
 
 ## Why this works
 
@@ -106,7 +106,7 @@ Liquids are 68.9% of the flour; counting only the water in the half-and-half (~8
 
 ## Notes & lessons
 
-_None yet. To record on the first bake: which all-purpose flour (King Arthur or Wegmans), how long each rise actually took on proof mode, the bake time, and how the sides browned in the bare aluminum pan._
+- 2026-09-21: 5/5 made exactly as written. Needed the full 40 min at 350°F (175°C) to reach 192–195°F (89–91°C) in the Café oven, so expect the top of the range and start checking at 35 min. The half-and-half, salted butter, and active dry yeast substitutions all worked without adjustment. Still to record: rise times on proof mode, the flour brand, and how the sides brown in the bare aluminum pan. ([cook #1](../journal/2026/2026-09-21-basic-sandwich-loaf.md))
 
 ## Changelog
 
@@ -114,7 +114,7 @@ _None yet. To record on the first bake: which all-purpose flour (King Arthur or 
 
 ## Sources
 
-- King Arthur Baking, [Classic Sandwich Bread](https://www.kingarthurbaking.com/recipes/classic-sandwich-bread-recipe): the base formula, scaled 1.25× for the larger pan. Oven temperature and the 190°F (88°C) doneness target are theirs. Their milk is replaced with half-and-half here; that swap is ours and untested.
+- King Arthur Baking, [Classic Sandwich Bread](https://www.kingarthurbaking.com/recipes/classic-sandwich-bread-recipe): the base formula, scaled 1.25× for the larger pan. Oven temperature and the 190°F (88°C) doneness target are theirs. Their milk is replaced with half-and-half here; that swap is ours, and it worked as written on the first bake (2026-09-21).
 - King Arthur Baking, [Why it's important to choose the right bread pan](https://www.kingarthurbaking.com/blog/2016/02/12/choosing-right-bread-pan): flour quantity for a 9" × 5" pan.
 - King Arthur Baking, [White Sandwich Bread](https://www.kingarthurbaking.com/recipes/white-sandwich-bread-recipe): the foil tent.
 - Brian Lagerstrom, [PBJ From Scratch](https://brianlagerstrom.com/recipes/pbj-from-scratch/): cross-check on dough size (430g flour in a 1½ lb pan) and rise times.
