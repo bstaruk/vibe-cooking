@@ -1,6 +1,6 @@
 # Pantry
 
-_Last updated: 2026-09-13 (kitchen tour in progress)_
+_Last updated: 2026-09-21 (added the house yeast)_
 
 ## House defaults
 
@@ -16,6 +16,7 @@ These determine our conversions. Every volume helper depends on them.
 | Whole wheat flour | Wegmans | |
 | Rye flour | Usually Bob's Red Mill | |
 | Rice flour | Any brand | |
+| Yeast | Fleischmann's active dry, stored in the freezer | Recipes assume active dry, bloomed in warm liquid before mixing. When converting a recipe written for instant yeast, use 1.25× the weight. |
 | Butter | _?_ | Salted or unsalted. European-style butter has more fat. |
 | High-heat fat | _?_ | For searing. |
 | Everyday olive oil | _?_ | |
@@ -25,6 +26,7 @@ These determine our conversions. Every volume helper depends on them.
 _Staples that stay off shopping lists._
 
 - All-purpose, bread, 00, whole wheat, rye, and rice flours (see *House defaults*)
+- Fleischmann's active dry yeast (freezer)
 - Wegmans whole San Marzano tomatoes, DOP-certified: usually ~5 cans. The base for house tomato and pizza sauce.
 - Secret Aardvark hot sauce (added to Brian's plate after cooking, not to shared dishes)
 
