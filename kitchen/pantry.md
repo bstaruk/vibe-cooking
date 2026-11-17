@@ -1,6 +1,6 @@
 # Pantry
 
-_Last updated: 2026-09-21 (added the house yeast, half-and-half, and salted butter)_
+_Last updated: 2026-11-17 (added True Lime and True Lemon)_
 
 ## House defaults
 
@@ -31,6 +31,7 @@ _Staples that stay off shopping lists._
 - Half-and-half
 - Wegmans whole San Marzano tomatoes, DOP-certified: usually ~5 cans. The base for house tomato and pizza sauce.
 - Secret Aardvark hot sauce (added to Brian's plate after cooking, not to shared dishes)
+- True Lime and True Lemon crystallized citrus (True Citrus): both always on hand, plenty of each. Brian also drinks them in water. The house stand-in when there's no fresh lime or lemon (2026-11-17).
 
 ## Specialty stash
 
