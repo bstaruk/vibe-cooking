@@ -8,7 +8,7 @@ Everything in Brian's kitchen that recipes and cook-alongs can use.
 - **Maintained by** `/patina-kitchen` and `/patina-gear`. Specs are checked against the manufacturer's listing whenever the model is known.
 - **`?`** marks something Brian still needs to confirm or measure. *Unverified* marks a spec that sources couldn't confirm.
 
-_Last updated: 2026-09-21 (added bannetons, a loaf pan, the 1L Bonavita kettle, scrapers, and a rolling pin; specs checked 2026-09-21)_
+_Last updated: 2026-11-20 (the Lancaster 5qt Dutch oven replaces the Field No. 8 Dutch oven; Lancaster specs checked 2026-11-20)_
 
 ## Range & oven
 
@@ -27,12 +27,12 @@ _Last updated: 2026-09-21 (added bannetons, a loaf pan, the 1L Bonavita kettle, 
 | Call name | Maker / model | Size | Era / markings | Notes |
 |---|---|---|---|---|
 | `Lancaster No. 4 skillet` | Lancaster Cast Iron No. 4 | 7" (18cm) top · 5½–5¾" cooking surface (maker lists both) · 1¾" deep · ~2 lb | Modern (PA) | Lancaster advises low to medium-low preheat; lighter than most modern iron. |
-| `Lancaster No. 8 skillet` | Lancaster Cast Iron No. 8 | 10½" (27cm) top · 9¼" cooking surface · 2" deep · 4 lb | Modern (PA) | |
+| `Lancaster No. 8 skillet` | Lancaster Cast Iron No. 8 | 10½" (27cm) top · 9¼" cooking surface · 2" deep · 4 lb | Modern (PA) | **Has a lid:** the `Lancaster 5qt Dutch oven` lid fits it (Lancaster: the No. 8 lid fits all No. 8 pieces). |
 | `Lancaster No. 10 skillet` | Lancaster Cast Iron No. 10 | 11⅝" (30cm) top · 10" cooking surface · 2⅛" deep · ~6 lb | Modern (PA) | |
+| `Lancaster 5qt Dutch oven` | Lancaster Cast Iron 5 Quart Dutch Oven (No. 8 size) | 5qt (4.7L) · 10½" (27cm) top · 8¾" cooking surface · 4⅛" deep · 13⅝" across the handles · 13 lb (retailers; whether that includes the lid isn't stated) | Modern (PA). Bought 2026-11. | Comes with Lancaster's No. 8 lid: self-basting, solid brass knob, 10½" across, and it also fits the `Lancaster No. 8 skillet`. Lancaster's listings give the lid as 4 lb in one place and 5 lb in another; actual weight _?_ (it fits on the OXO scale; the full pot doesn't). Induction-compatible. |
 | `Wapak No. 7 skillet` | Wapak Hollowware, No. 7 | _?_ (measure). A 1912 Wapak catalog lists the No. 7 with an 8¼" bottom; one dealer's No. 7 measured 9¾" top, 2" deep; Wapak sizes vary. | Block logo: 1903–1910 per Cast Iron Collector (rule out the Tapered logo, 1912–1926, whose letters shrink from W to K) | **Brian's favorite skillet.** Used sparingly for fear of warping on induction; see *Vintage iron on induction*. The 8" × 9" front-left or back-left zone is the closest match to an 8¼" base. |
 | `Wapak No. 7 griddle` | Wapak Hollowware, No. 7 rectangular (long) griddle | _?_ (measure) | Z logo: 1903–1926 | Best on the left flex zone. |
 | `Griswold square egg skillet` (×2) | Griswold square egg skillet | ~4⅝" × 4⅝" top, ⅞" tall, 1 lb 4 oz (one sale listing) | Pattern No. _?_ on each: **129** (early handle with deep V cuts), **129A** (rounder late handle), or **53** (Wagner-era, 1960s, faint or no logo) | Egg sandwiches. The small zone fits. |
-| `Field No. 8 Dutch oven` | Field Company No. 8 Dutch oven | 4.5qt (4.3L) · 10¼" (26cm) top · 7⅞" base · 4.4" tall · 6.5 lb pot, 10.5 lb with lid | Modern | The lid has self-basting ridges and isn't a skillet. It also fits the Field No. 8 skillet. Induction-compatible. |
 | `Challenger bread pan` | Challenger Breadware bread pan | Inside 11.5" × 9" × 5" (29 × 23 × 13cm) · outside 15.4" × 10.5" × 5.4" · 20 lb (lid 11.3 lb, base 8.7 lb) | Modern | Max **500°F (260°C)**. Maker's 2020 launch figure: dough up to 1.2kg. Clean with brush or chainmail; re-season with grapeseed oil, upside down, 450°F (230°C), 30 min. |
 
 ## Carbon steel
@@ -136,3 +136,4 @@ Le Creuset guidance: low to medium heat for everything, including searing; heat 
 
 | Call name | Retired on | Why |
 |---|---|---|
+| `Field No. 8 Dutch oven` | 2026-11-20 | Replaced by the `Lancaster 5qt Dutch oven`; being sold. It was 4.5qt (4.3L), 10¼" (26cm) across the top, with a self-basting lid. No recipes used it. |

@@ -2,12 +2,13 @@
 
 What Patina knows about how Brian cooks and eats. It gets updated during conversations and by `/patina-debrief`. Dated entries show when we learned something.
 
-_Last updated: 2026-09-21_
+_Last updated: 2026-11-20_
 
 ## Snapshot
 
 - **Gear nerd:** loves specs, testing, and new tech. Open to gear suggestions when they're justified.
 - **Cast iron devotee.** Collects vintage iron as well as modern. The Wapak No. 7 skillet is the favorite, used sparingly out of fear of warping it on induction.
+- **Lancaster is the favorite modern maker.** Owns the No. 4, No. 8, and No. 10 skillets and the 5qt Dutch oven, which replaced a Field Company Dutch oven (2026-11-20).
 - **Scale-first:** grams everywhere; °F with °C helpers. Weighs small amounts on a 0.1g scale and has a 0.01g scale for finer work.
 - **Pizza is a serious pursuit:** a Gozney Arc XL, two perforated pizza pans, a Sicilian pan, pizza screens, and original south shore bar pizza pans. Makes poolish doughs.
 - **Loves making bread,** especially with multi-day ferments. Prefers yeasted breads now; no longer keeps a sourdough starter.
