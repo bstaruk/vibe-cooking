@@ -15,3 +15,5 @@ House recipes, written in the house format (see `.claude/rules/recipe-format.md`
 ## On deck
 
 _Dishes we want to make and experiments we want to run. `/patina-menu` pulls from this list._
+
+- **[Mushroom, White Bean & Barley Stew](mushroom-white-bean-barley-stew.md):** the first cook in the Lancaster 5qt Dutch oven, after its cleaning and inside coat of seasoning. The pot arrives 2026-11-21, and the ingredients were bought 2026-11-20.

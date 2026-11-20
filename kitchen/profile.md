@@ -47,6 +47,7 @@ _Last updated: 2026-11-20_
 - **The KitchenAid mixer is for big batches only,** like 8 pizza dough balls for the freezer. Single loaves and other small doughs get mixed and kneaded by hand (2026-09-21).
 - **Water to temperature comes from the electric kettle,** never a pot on the cooktop (2026-09-21).
 - **Batch and freeze:** portions, vacuum-seals, and freezes big batches for future dinners.
+- **House seasoning for cast iron:** Crisco, baked at 500°F (260°C) for 1 hr per coat. New iron gets a good cleaning and one coat on the inside before its first cook, even if it shipped pre-seasoned (2026-11-20).
 - **Precise where it matters, by feel where it doesn't.** Bread and other precision recipes get weighed exactly. Forgiving dishes like salsa get whole vegetables and judgment, so their recipes work best sized to whole or half pieces, with gram estimates (2026-11-20, [journal](../journal/2026/2026-11-20-fresh-san-marzano-salsa.md)).
 
 ## Garden
