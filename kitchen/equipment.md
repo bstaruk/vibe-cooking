@@ -24,6 +24,8 @@ _Last updated: 2026-11-20 (the Lancaster 5qt Dutch oven replaces the Field No. 8
 
 ## Cast iron
 
+**Acid in bare iron** (checked 2026-11-20): Lancaster says to build significant seasoning before cooking acidic foods. Lodge says acidic cooks are fine under ~45 min once the seasoning is established, but not in new iron. ATK tasted metal in tomato sauce after 30 min. So low-acid stews, beans, and sears go in bare iron. Long tomato or wine braises, and the house tomato sauce, go in the enameled pans or the `6qt All-Clad stockpot`. Never store food in bare iron.
+
 | Call name | Maker / model | Size | Era / markings | Notes |
 |---|---|---|---|---|
 | `Lancaster No. 4 skillet` | Lancaster Cast Iron No. 4 | 7" (18cm) top · 5½–5¾" cooking surface (maker lists both) · 1¾" deep · ~2 lb | Modern (PA) | Lancaster advises low to medium-low preheat; lighter than most modern iron. |
