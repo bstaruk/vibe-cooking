@@ -10,6 +10,7 @@ House recipes, written in the house format (see `.claude/rules/recipe-format.md`
 |---|---|---|---|---|---|
 | [Basic Sandwich Loaf](basic-sandwich-loaf.md) | seasoned | 5 | 1 | 2026-09-21 | bread, yeasted, loaf-pan, same-day |
 | [Fresh San Marzano Salsa](fresh-san-marzano-salsa.md) | seasoned | 5 | 1 | 2026-11-20 | salsa, mexican, vegetarian, dip |
+| [Mushroom, White Bean & Barley Stew](mushroom-white-bean-barley-stew.md) | raw | | 0 | | stew, vegetarian, vegan, one-pot, cast-iron, freezer |
 
 ## On deck
 
