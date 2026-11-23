@@ -2,7 +2,7 @@
 
 What Patina knows about how Brian cooks and eats. It gets updated during conversations and by `/patina-debrief`. Dated entries show when we learned something.
 
-_Last updated: 2026-11-20_
+_Last updated: 2026-11-23_
 
 ## Snapshot
 
@@ -18,6 +18,7 @@ _Last updated: 2026-11-20_
 
 - **Cooks for:** Brian and his wife.
 - **Who makes what:** Brian is the meal-maker. His wife makes things like hummus, desserts, and cupcakes.
+- **Kids visit sometimes.** When they're over, dishes made with beer or wine get an alcohol-free version (2026-11-22).
 - **Weeknight time budget:** flexible.
 - **Project cooking:**
   - **Loves:** projects whose payoff lasts. Examples: multi-day bread ferments, and batch days like making 200 pierogi to portion, vacuum-seal, and freeze.
@@ -47,6 +48,7 @@ _Last updated: 2026-11-20_
 - **The KitchenAid mixer is for big batches only,** like 8 pizza dough balls for the freezer. Single loaves and other small doughs get mixed and kneaded by hand (2026-09-21).
 - **Water to temperature comes from the electric kettle,** never a pot on the cooktop (2026-09-21).
 - **Batch and freeze:** portions, vacuum-seals, and freezes big batches for future dinners.
+- **Thickens soups and stews with instant potato flakes,** a trick from Brian's grandmother (2026-11-22).
 - **House seasoning for cast iron:** Crisco, baked at 500°F (260°C) for 1 hr per coat. New iron gets a good cleaning and one coat on the inside before its first cook, even if it shipped pre-seasoned (2026-11-20).
 - **Precise where it matters, by feel where it doesn't.** Bread and other precision recipes get weighed exactly. Forgiving dishes like salsa get whole vegetables and judgment, so their recipes work best sized to whole or half pieces, with gram estimates (2026-11-20, [journal](../journal/2026/2026-11-20-fresh-san-marzano-salsa.md)).
 
