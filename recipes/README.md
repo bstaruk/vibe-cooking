@@ -10,10 +10,10 @@ House recipes, written in the house format (see `.claude/rules/recipe-format.md`
 |---|---|---|---|---|---|
 | [Basic Sandwich Loaf](basic-sandwich-loaf.md) | seasoned | 5 | 1 | 2026-09-21 | bread, yeasted, loaf-pan, same-day |
 | [Fresh San Marzano Salsa](fresh-san-marzano-salsa.md) | seasoned | 5 | 1 | 2026-11-20 | salsa, mexican, vegetarian, dip |
-| [Mushroom, White Bean & Barley Stew](mushroom-white-bean-barley-stew.md) | raw | | 0 | | stew, vegetarian, vegan, one-pot, cast-iron, freezer |
+| [Mushroom, White Bean & Barley Stew](mushroom-white-bean-barley-stew.md) | seasoned | 5 | 1 | 2026-11-22 | stew, vegetarian, vegan, one-pot, cast-iron, freezer |
 
 ## On deck
 
 _Dishes we want to make and experiments we want to run. `/patina-menu` pulls from this list._
 
-- **[Mushroom, White Bean & Barley Stew](mushroom-white-bean-barley-stew.md):** the first cook in the Lancaster 5qt Dutch oven, after its cleaning and inside coat of seasoning. The pot arrives 2026-11-21, and the ingredients were bought 2026-11-20.
+- _Nothing on deck right now._
