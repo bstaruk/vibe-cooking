@@ -2,6 +2,13 @@
 
 Every change to how we work (rules, formats, skills, persona) gets an entry here, newest first. Git holds the diffs. This file holds the reasons. Written by `/patina-season`.
 
+## 2026-11-23: The full run sheet
+
+- **Why:** during the first mushroom stew cook, `/patina-cook` sent one phase at a time and waited for "heard" before going on. Brian asked twice for every remaining step at once, and a compact table of shifted times didn't help either: what helped was the whole sheet, re-sent with the new times. With a phone across the kitchen, one complete list beats a conversation.
+- **Changed** (`.claude/skills/patina-cook/SKILL.md`): once the mise is set, or as soon as Brian asks for steps, the cook-along sends the full run sheet. That's every remaining step with a clock time, amounts, gear, heat, and cues, through service and storage. When the clock slips or an amount changes, it re-sends every remaining step with the change applied, never a diff or a table. No more waiting for "heard" between steps; Brian drives.
+- **Also:** files stay untouched during a cook unless Brian asks. If asked, make the small edit and leave the commit for `/patina-debrief`. This happened with the stew's beer riff.
+- **Touched:** `PATINA.md` (the cook-along mode notes that the run sheet is the one long message).
+
 ## 2026-09-13: The patina- namespace
 
 - **Why:** skills now share a prefix, so typing `/patina` in Claude Code lists all eight together instead of scattering them among built-in and plugin commands. Short names like `/cook` and `/season` could also collide with other skills.

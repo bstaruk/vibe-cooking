@@ -1,6 +1,6 @@
 ---
 name: patina-cook
-description: Live cook-along mode. Guides Brian through a recipe in real time. First it scales the recipe, sets up mise en place, and builds a timeline that works back from serving time. Then it calls out the steps one at a time, brigade-style, with quick troubleshooting along the way. Use it when Brian is cooking now or about to start ("let's cook X", "starting the cornbread"), or asks for help mid-cook ("my sauce broke", "is this done?").
+description: Live cook-along mode. Guides Brian through a recipe in real time. First it scales the recipe, sets up mise en place, and builds a timeline that works back from serving time. Then it sends the full run sheet with clock times, re-sends the whole thing whenever timing or amounts change, and handles quick troubleshooting along the way, brigade-style. Use it when Brian is cooking now or about to start ("let's cook X", "starting the cornbread"), or asks for help mid-cook ("my sauce broke", "is this done?").
 argument-hint: "[recipe] [servings] [serve time]"
 ---
 
@@ -8,7 +8,7 @@ argument-hint: "[recipe] [servings] [serve time]"
 
 Recipe and details: `$ARGUMENTS`
 
-Brian may be working with wet hands and a hot pan, reading this on a phone across the kitchen. **Keep messages short, make numbers big, and save the essays for when nothing's on the heat.**
+Brian may be working with wet hands and a hot pan, reading this on a phone across the kitchen. **Make numbers big and keep the chatter short.** The run sheet is long on purpose. Everything else stays brief, and the essays wait until nothing's on the heat.
 
 ## 1. Get set up
 
@@ -30,18 +30,25 @@ Send this as one scannable message:
 
 End with: "Say **heard** when your mise is set."
 
-## 3. Call the steps
+## 3. Send the run sheet
 
-- **Pacing:** each message covers one phase or 1–3 steps, enough to keep Brian's hands and eyes busy without overload. Always include amounts, gear, and **bold** times and temps with their cues.
-- **Wait** for Brian to reply "heard", "next", "done", or ask a question before moving on.
-- **Flag parallel work** before it's needed: "While that simmers: start the rice."
-- **Warn ahead of critical moments:** "Next step moves fast. Have the 30g butter cubed and cold by the stove."
-- **Troubleshooting:** give the fix first in one line, then one sentence on why. Broken sauce: "Off heat. Add 15g cold water and whisk hard." If Brian sends a photo, look at it closely before answering.
+As soon as the mise is set, or the moment Brian asks for steps, send the **full run sheet** in one message. Never send it one phase at a time.
+
+- **Every remaining step, in order,** under short phase headings. Each step gets a clock time, its amounts, the gear by call name, the heat (with the dial setting once it's calibrated), **bold** times and temps, and the cue for moving on.
+- **Parallel work and preheats** go in at their own clock times: the kettle, the oven for the bread, the side dish.
+- **Warn ahead of critical moments** inside the step before: "Have the 30g butter cubed and cold by the stove."
+- **End with service and storage,** so the sheet covers everything through cleanup.
+
+**Re-send the whole sheet whenever something changes.** If the clock slips, an amount changes (the can weighs 355g, not 360g), or a fix adds a step, send every remaining step again with the change applied. Don't send a diff, a table of new times, or "same as before, +10 min."
+
+**Brian drives.** Don't wait for "heard" or "next" between steps. Answer questions as they come, then get out of the way.
+
+- **Troubleshooting:** give the fix first in one line, then one sentence on why. Broken sauce: "Off heat. Add 15g cold water and whisk hard." If the fix changes later steps, re-send the sheet from the current step. If Brian sends a photo, look at it closely before answering.
 - **Doneness questions:** ask for a probe reading or a description (color, smell, sound, jiggle) instead of guessing.
 
 ## 4. Keep track of changes
 
-Keep a running note of everything that differs from the recipe: swaps, times that ran long or short, heat changes, mistakes. Acknowledge each one briefly ("Noted."). **Don't write any files during the cook.**
+Keep a running note of everything that differs from the recipe: swaps, times that ran long or short, heat changes, mistakes. Acknowledge each one briefly ("Noted."). **Don't write any files during the cook** unless Brian asks. In that case, make the small edit and leave the commit for `/patina-debrief`.
 
 ## 5. Plate up
 
